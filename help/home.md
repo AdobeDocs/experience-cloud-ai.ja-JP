@@ -1,9 +1,9 @@
 ---
 title: Experience Cloudアプリケーションにおける AI
 description: Experience Cloud アプリケーションでジェネレーティブ AI （GenAI）、AI アシスタント、およびエージェント AI がどのように使用されるかを説明します。
-source-git-commit: 860b0f2414dc006c23fedcd7b0e29727fc0641d4
+source-git-commit: 58cce845f525e7762f32379a8db5791b677ae54f
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -59,10 +59,9 @@ Customer Journey Analyticsで使用可能な、このエージェント：
 
 Journey Optimizer ユーザーは次の操作を実行できます。
 
-- 自然言語を使用したジャーニーの作成、分析、最適化
+- 自然言語を使用したジャーニーの分析と最適化
 - スケジュールまたはオーディエンスの競合の検出と解決
 - パフォーマンスとドロップオフポイントの分析
-- レプリケーションの最もパフォーマンスの高いジャーニーを特定する
 
 #### 製品サポート担当者
 
