@@ -1,7 +1,7 @@
 ---
 title: Experience Cloudアプリケーションにおける AI
 description: Experience Cloud アプリケーションでジェネレーティブ AI （GenAI）、AI アシスタント、およびエージェント AI がどのように使用されるかを説明します。
-source-git-commit: b5649a893afc212a826b1ec2acb5ee2957caa03d
+source-git-commit: 06d80a7166dd9506cec570a79ed5eba4c2b5fe3c
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -107,3 +107,4 @@ AI アシスタントは、プライバシー、セキュリティ、ガバナ�
 - 問題や不正確さに関するフィードバックを送信
 
 このガイドでは、基本的なインタラクションから高度なエージェントオーケストレーション、特殊なワークフローまで、Experience Cloud アプリケーション全体で AI 機能を効果的に使用するために必要なすべての情報を提供します。
+
