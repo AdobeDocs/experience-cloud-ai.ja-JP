@@ -1,7 +1,7 @@
 ---
 title: AI アシスタント プロンプト ライブラリ
 description: AI アシスタントのクエリ時に使用できる様々な種類のプロンプトとプロンプトパターンについて説明します。
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 0%
@@ -133,3 +133,4 @@ AI アシスタントで使用できるさまざまなタイプのプロンプ�
 
 - 「私のケースの E-12345 の最新情報は何ですか？」
 - 「チケット E67890 ールの更新点は？」
+
