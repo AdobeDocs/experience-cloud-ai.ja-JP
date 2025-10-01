@@ -6,7 +6,7 @@ type: Documentation
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/experience-cloud-ai.ja-JP
 index: true
-source-git-commit: 63c53db7347c1d5998cb6439833b4f735623d4fb
+source-git-commit: 00bb5af3650dc661da5f007b2062ea2a496a3082
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 98%
@@ -19,3 +19,4 @@ ht-degree: 98%
 metadata.md ファイルには、リポジトリ内のユーザーガイド TOC.md ファイルに渡すリポジトリレベルのメタデータが含まれます。ユーザーガイドの metadata.md コンテンツを変更する場合は、任意の TOC.md ファイルでおこないます。
 
 **ソリューション**、**製品**、および&#x200B;**タイプ**&#x200B;で有効な値のリストについては[メタデータ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=ja)を参照してください。
+
