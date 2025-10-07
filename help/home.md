@@ -1,14 +1,14 @@
 ---
-title: Experience Cloudアプリケーションにおける AI
-description: Experience Cloud アプリケーションでジェネレーティブ AI （GenAI）、AI アシスタント、およびエージェント AI がどのように使用されるかを説明します。
+title: Experience Cloud アプリケーションの AI
+description: Experience Cloud アプリケーションで生成 AI（GenAI）、AI アシスタント、エージェント型 AI がどのように使用されるかについて説明します。
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Experience Cloudの AI
+# Experience Cloud の AI
 
 Adobe Experience Cloud アプリケーション全体の AI 機能の包括的ガイドへようこそ。 このドキュメントでは、ジェネレーティブ AI、AI アシスタント、Adobe エージェントをExperience Cloud ワークフローに統合して、生産性を高め、意思決定を強化する方法について説明します。
 
