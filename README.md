@@ -17,7 +17,7 @@ ht-degree: 33%
 
 **Adobeの従業員でない場合は** 外部のコミュニティ投稿を送信できます。 コミュニティの投稿は社内システムにインポートされ、編集されてパブリックリポジトリにマージされます。 その後、公開リポジトリが最新の変更と同期され、非公開リポジトリに結合されます。
 
-**Adobeの従業員の場合**、非公開の [Adobe GitHub リポジトリに直接投稿できます ](https://git.corp.adobe.com/AdobeDocs/)。 詳しくは、Adobeの社員向けの Adobe Experience League オーサリングガイドを参照してください。
+**Adobeの従業員の場合**、非公開の [Adobe GitHub リポジトリに直接投稿できます &#x200B;](https://git.corp.adobe.com/AdobeDocs/)。 詳しくは、Adobeの社員向けの Adobe Experience League オーサリングガイドを参照してください。
 
 ## 外部寄稿者
 
@@ -29,7 +29,7 @@ ht-degree: 33%
 1. 「このコンテンツは役に立ちましたか？」 ブラウザーウィンドウの下部に表示されるバナーで、「**詳細フィードバックオプション**」をクリックします。
 1. 「**編集の提案**」をクリックし、GitHub UI で変更内容を含むプルリクエスト（PR）を送信します。
 
-   一般的な [Adobe ドキュメント投稿者ガイド ](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ja) を参照してください。
+   一般的な [Adobe ドキュメント投稿者ガイド &#x200B;](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ja) を参照してください。
 
 このリポジトリのドキュメントやコード例に対して送信する小規模な修正や説明には、アドビの利用条件が適用されます。
 
@@ -47,14 +47,14 @@ Adobe コミュニティのメンバーが新しいトピックを作成した�
 
 ## 内部寄稿者
 
-Adobe Experience Cloud ソリューションの製品チームのテクニカルライター、プログラムマネージャー、または開発者で技術記事の投稿または作成を担当している場合は、[ プライベートリポジトリ ](https://git.corp.adobe.com/AdobeDocs) を使用します。
+Adobe Experience Cloud ソリューションの製品チームのテクニカルライター、プログラムマネージャー、または開発者で技術記事の投稿または作成を担当している場合は、[&#x200B; プライベートリポジトリ &#x200B;](https://git.corp.adobe.com/AdobeDocs) を使用します。
 
 ## トピックの書式設定
 
 このリポジトリ内の記事はすべて、GitHub 固有の Markdown を使用しています。 Markdown について詳しくは、以下を参照してください。
 
-* [Markdown の基本 ](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [ 印刷用 Markdown チートシート ](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Markdown の基本 &#x200B;](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [&#x200B; 印刷用 Markdown チートシート &#x200B;](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## ラベル
 
