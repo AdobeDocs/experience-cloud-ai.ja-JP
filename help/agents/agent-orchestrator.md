@@ -20,13 +20,13 @@ Agent Orchestratorについて詳しくは、このドキュメントを参照�
 
 Agent Orchestratorは、AI アシスタントの会話型インターフェイス、意思決定と計画のための推論エンジン、専門のAdobe Experience Platform エージェント、関連情報へのアクセスを提供するナレッジベースなど、いくつかの主要なコンポーネントで構成されています。
 
-![Agent Orchestratorのマーケティングアーキテクチャ ](./images/agent-orchestrator/agentic-architecture.png)
+![Agent Orchestratorのマーケティングアーキテクチャ &#x200B;](./images/agent-orchestrator/agentic-architecture.png)
 
 ### AI アシスタントの会話型インターフェイス {#ai-assistant}
 
-AI アシスタントは、インテリジェントな自然言語による対話型エクスペリエンスで、Experience Cloudが有効になっているアプリケーションを使用している実務担当者が、GenAI 機能と Agentic AI 機能を活用できます。これらの機能は、お客様がライセンスを取得したExperience Cloud アプリケーションによって幅広く利用できます。 アクセスのロックを解除するには、[AI アシスタントへのアクセスに関するガイド ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access) を参照してください。
+AI アシスタントは、インテリジェントな自然言語による対話型エクスペリエンスで、Experience Cloudが有効になっているアプリケーションを使用している実務担当者が、GenAI 機能と Agentic AI 機能を活用できます。これらの機能は、お客様がライセンスを取得したExperience Cloud アプリケーションによって幅広く利用できます。 アクセスのロックを解除するには、[AI アシスタントへのアクセスに関するガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access) を参照してください。
 
-詳しくは、[AI アシスタント UI ガイド ](../ai-assistant/ai-assistant-ui.md) を参照してください。
+詳しくは、[AI アシスタント UI ガイド &#x200B;](../ai-assistant/ai-assistant-ui.md) を参照してください。
 
 ### 推論エンジン {#reasoning-engine}
 
@@ -42,9 +42,9 @@ Adobe Experience Platform エージェントは、カスタマーエクスペリ
 | [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Data Insights Agentは、Customer Journey Analyticsの AI アシスタントからアクセスでき、データに関する質問に迅速かつ効率的に回答するジェネレーティブ AI コンバージョンエージェントです。 データビューのコンポーネントと実際のデータを使用して、Analysis Workspaceで関連するビジュアライゼーションを作成します。 | Customer Journey Analytics |
 | 実験エージェント | 実験エージェントは、実験結果を分析し、影響を予測し、新しい実験を提案することで、チームがより迅速に学習するのに役立ちます。 過去の実験とアクティブな実験を一元化するので、既に学んだことに基づいて構築し、ギャップを見つけ、次にテストする項目を優先させることができます。 | Adobe Journey OptimizerExperimentation Accelerator |
 | [Journey Agent](./ajo-agent-analyze.md) | Journey Agentを使用すると、Adobe Journey Optimizer ユーザーは、自然言語インターフェイスを使用してジャーニーを作成、分析および最適化できます。 Journey Agentを使用すると、ジャーニーをすばやく構築し、スケジュールやオーディエンスの競合を検出および解決し、パフォーマンスとドロップオフポイントを分析し、今後のキャンペーンにレプリケートするパフォーマンスの高いジャーニーを特定することができます。 データに基づく意思決定を行い、顧客エンゲージメントを向上させ、ジャーニーオーケストレーションを合理化するのに役立ちます。 | Adobe Journey Optimizer |
-| [ 製品サポート担当者 ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) | 製品サポートエージェントは、セルフサービスのデバッグおよびトラブルシューティング機能で、ワークフローから離れることなくAdobe Experience Platformの機能やアプリケーションをトラブルシューティングするのに役立ちます。 サポート管理者は、AI アシスタントのインタラクションからコンテキストを使用してカスタマーサポートチケットを作成し、AI アシスタントを通じてチケットの更新を確認できます。 | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey OptimizerB2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
+| [&#x200B; 製品サポート担当者 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) | 製品サポートエージェントは、セルフサービスのデバッグおよびトラブルシューティング機能で、ワークフローから離れることなくAdobe Experience Platformの機能やアプリケーションをトラブルシューティングするのに役立ちます。 サポート管理者は、AI アシスタントのインタラクションからコンテキストを使用してカスタマーサポートチケットを作成し、AI アシスタントを通じてチケットの更新を確認できます。 | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey OptimizerB2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
 
-Experience Cloud アプリケーションでのエージェントの使用について詳しくは、[Experience Cloudの Agentic AI ドキュメント ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/agentic-ai) を参照してください。
+Experience Cloud アプリケーションでのエージェントの使用について詳しくは、[Experience Cloudの Agentic AI ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/features/agentic-ai) を参照してください。
 
 ### ナレッジベース {#knowledge-base}
 
@@ -58,7 +58,7 @@ AI Assistant の会話インターフェイスにアクセスして 1 つ以上�
 
 * **Real-Time CDP** および **Adobe Journey Optimizer**:AI アシスタントにアクセスできるようにするには、管理者から **AI アシスタントを有効にする** 権限を付与されている必要があります。 また、管理者は、AI アシスタントで運用インサイトに関する質問をできるように、**運用インサイトを表示** 権限をユーザーに付与する必要があります。 どちらの権限も、管理者によって権限 UI で設定されます。
 
-* **Customer Journey Analytics**：管理者から、[Customer Journey Analytics アクセス制御 ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control) を通じて AI アシスタントにアクセスする権限を付与してもらう必要があります。 これにより、製品に関する知識やデータインサイトを得ることができます。
+* **Customer Journey Analytics**：管理者から、[Customer Journey Analytics アクセス制御 &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control) を通じて AI アシスタントにアクセスする権限を付与してもらう必要があります。 これにより、製品に関する知識やデータインサイトを得ることができます。
 
 >[!NOTE]
 >
