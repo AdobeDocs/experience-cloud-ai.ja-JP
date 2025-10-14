@@ -1,11 +1,9 @@
 ---
 title: 実験エージェント
 description: 実験エージェントの使用方法を学ぶ
-hide: true
-hidefromtoc: true
-source-git-commit: 352ba791195eca7f68e6d317e0f2449d6ededeb2
+source-git-commit: 0069a97bcb35f609019ec32f263175a36525161a
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '506'
 ht-degree: 2%
 
 ---
@@ -14,11 +12,11 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->実験エージェントは、AI アシスタントにアクセスできるすべてのお客様が利用できます。 ただし、実験エージェント機能を完全に使用するには、次の権限が必要です。
+>実験エージェントは、AI アシスタントにアクセスできるすべてのお客様が利用できます。 ただし、実験エージェントの機能を完全に使用するには、次の権限が必要です。
 >
 >**実験を表示**：この権限を持つユーザーは、実験エージェントを使用して、AI アシスタントで実験に関するインサイトを直接表示できます。
 >
->**実験メタデータを管理**：この権限を持つユーザーは、実験エージェントを使用して AI アシスタントで新しい実験を直接作成できます。
+>**実験メタデータの管理**：この権限を持つユーザーは、実験エージェントを使用して、AI アシスタントで新しい実験を直接作成できます。
 
 ## 概要
 
@@ -32,7 +30,7 @@ Experimentation Accelerator機能の一部として、エージェントは次�
 
 * **機会**：次に取るべき行動に関するガイダンス
 
-![&#x200B; 実験エージェントのサンプル &#x200B;](./images/experiment/experiment-agent.png)
+![ 実験エージェントのサンプル ](./images/experiment/experiment-agent.png)
 
 ## ユースケース
 
