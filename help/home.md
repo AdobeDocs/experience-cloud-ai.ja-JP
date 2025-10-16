@@ -16,7 +16,7 @@ Adobe Experience Cloud アプリケーション全体の AI 機能の包括的�
 
 ### AI アシスタント
 
-[AI アシスタント ](./ai-assistant/ai-assistant-ui.md) は、Adobe Experience Platform ベースのアプリケーションで生産性を向上させ、作業を再定義するインテリジェントな会話型ジェネレーティブ AI ツールです。 ユーザーは、自然言語プロンプトを通じて、製品に関する知識を得たり、問題をトラブルシューティングしたり、運用に関するインサイトを見つけたりできます。 また、AI アシスタントを使用して、Adobe Experience Platform Agent やその他の AI 機能にアクセスすることもできます。
+[AI アシスタント &#x200B;](./ai-assistant/ai-assistant-ui.md) は、Adobe Experience Platform ベースのアプリケーションで生産性を向上させ、作業を再定義するインテリジェントな会話型ジェネレーティブ AI ツールです。 ユーザーは、自然言語プロンプトを通じて、製品に関する知識を得たり、問題をトラブルシューティングしたり、運用に関するインサイトを見つけたりできます。 また、AI アシスタントを使用して、Adobe Experience Platform Agent やその他の AI 機能にアクセスすることもできます。
 
 **主な特長：**
 
