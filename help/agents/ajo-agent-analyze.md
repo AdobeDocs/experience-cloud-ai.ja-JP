@@ -18,7 +18,7 @@ ht-degree: 38%
 
 Journey Agentを使用すると、Journey Optimizerのユーザーは、自然言語インターフェイスを使用してジャーニーを分析し、最適化できます。 Journey Agentを使用すると、実務担当者はスケジュールやオーディエンスの競合をすばやく特定して解決し、ジャーニー内のユーザーの放棄ポイントを検出して、インサイトやレコメンデーションを提供できます。 これにより、実務担当者はデータに基づいた意思決定を行い、顧客エンゲージメントを向上させ、ジャーニーオーケストレーションを効率化できるようになります。
 
-この [&#x200B; 概要 &#x200B;](https://experienceleague.adobe.com/en/slides/journey-agent-overview) で詳細を説明し、エージェントを一目で確認できます。
+この [&#x200B; 概要 &#x200B;](https://experienceleague.adobe.com/ja/slides/journey-agent-overview) で詳細を説明し、エージェントを一目で確認できます。
 
 >[!AVAILABILITY]
 >
