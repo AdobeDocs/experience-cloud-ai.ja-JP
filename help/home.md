@@ -4,7 +4,7 @@ description: Experience Cloud アプリケーションで生成 AI（GenAI）、
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Experience Cloud アプリケーション全体の AI 機能の包括的�
 
 ### AI アシスタント
 
-[AI アシスタント &#x200B;](./ai-assistant/ai-assistant-ui.md) は、Adobe Experience Platform ベースのアプリケーションで生産性を向上させ、作業を再定義するインテリジェントな会話型ジェネレーティブ AI ツールです。 ユーザーは、自然言語プロンプトを通じて、製品に関する知識を得たり、問題をトラブルシューティングしたり、運用に関するインサイトを見つけたりできます。 また、AI アシスタントを使用して、Adobe Experience Platform Agent やその他の AI 機能にアクセスすることもできます。
+[AI アシスタント ](./ai-assistant/ai-assistant-ui.md) は、Adobe Experience Platform ベースのアプリケーションで生産性を向上させ、作業を再定義するインテリジェントな会話型ジェネレーティブ AI ツールです。 ユーザーは、自然言語プロンプトを通じて、製品に関する知識を得たり、問題をトラブルシューティングしたり、運用に関するインサイトを見つけたりできます。 また、AI アシスタントを使用して、Adobe Experience Platform Agent やその他の AI 機能にアクセスすることもできます。
 
 **主な特長：**
 

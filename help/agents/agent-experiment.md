@@ -4,7 +4,7 @@ description: 実験エージェントの使用方法を学ぶ
 source-git-commit: 0069a97bcb35f609019ec32f263175a36525161a
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ Experimentation Accelerator機能の一部として、エージェントは次�
 
 * **機会**：次に取るべき行動に関するガイダンス
 
-![&#x200B; 実験エージェントのサンプル &#x200B;](./images/experiment/experiment-agent.png)
+![ 実験エージェントのサンプル ](./images/experiment/experiment-agent.png)
 
 ## ユースケース
 
@@ -65,8 +65,8 @@ Experimentation Accelerator機能の一部として、エージェントは次�
 現在、次の機能がサポートされています。
 
 * パフォーマンス
-* インサイト
-* 商談
+* Insights
+* 機会
 
 ### **範囲外**
 

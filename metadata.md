@@ -14,9 +14,9 @@ ht-degree: 98%
 ---
 
 
-# 内部使用のためのメタデータ
+# 社内用のメタデータ
 
-metadata.md ファイルには、リポジトリ内のユーザーガイド TOC.md ファイルに渡すリポジトリレベルのメタデータが含まれます。ユーザーガイドの metadata.md コンテンツを変更する場合は、任意の TOC.md ファイルでおこないます。
+metadata.md ファイルには、リポジトリー内にあるユーザーガイドの TOC.md ファイルにパススルーされる、リポジトリーレベルのメタデータが含まれています。任意のユーザーガイドの metadata.md コンテンツを変更したい場合は、任意の TOC.md ファイル内で行います。
 
-**ソリューション**、**製品**、および&#x200B;**タイプ**&#x200B;で有効な値のリストについては[メタデータ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=ja)を参照してください。
+**解決策**、**製品**、**タイプ**&#x200B;の有効な値のリストについては、[メタデータ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=ja)を参照してください。
 

@@ -4,7 +4,7 @@ description: ユーザーインターフェイスで AI アシスタントにア
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '1843'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -14,9 +14,9 @@ AI アシスタントは、Adobe Experience Platform ベースのアプリケー
 
 AI アシスタントの使用方法については、このガイドをお読みください。
 
-![&#x200B; 全画面表示の AI アシスタントのホームインターフェイス &#x200B;](./images/ai-assistant/blank-home.png)
+![ 全画面表示の AI アシスタントのホームインターフェイス ](./images/ai-assistant/blank-home.png)
 
-## AI アシスタントにアクセス
+## AI アシスタントへのアクセス
 
 AI アシスタントにアクセスする方法はいくつかあります。
 
@@ -24,7 +24,7 @@ Experience Cloudのホームインターフェイスで、左側のナビゲー�
 
 +++選択して表示
 
-![&#x200B; 左側のナビゲーションで「AI アシスタント」アイコンが選択されているExperience Cloudのホーム &#x200B;](./images/ai-assistant/from-experience-cloud.png)
+![ 左側のナビゲーションで「AI アシスタント」アイコンが選択されているExperience Cloudのホーム ](./images/ai-assistant/from-experience-cloud.png)
 
 +++
 
@@ -32,7 +32,7 @@ Experience Cloudのホームインターフェイスで、左側のナビゲー�
 
 +++選択して表示
 
-![&#x200B; 左側のナビゲーションで AI アシスタントアイコンが選択されている製品ホーム &#x200B;](./images/ai-assistant/from-product.png)
+![ 左側のナビゲーションで AI アシスタントアイコンが選択されている製品ホーム ](./images/ai-assistant/from-product.png)
 
 +++
 
@@ -45,12 +45,12 @@ AI アシスタントのインターフェイスをナビゲートする方法�
 AI アシスタント インターフェイスには、効果的にやり取りするのに役立つ重要な要素がいくつか含まれています。
 
 1. **[!UICONTROL 会話]**: **[!UICONTROL 会話]** アイコンを選択して新しい会話を開始し、履歴から最近の会話にアクセスします。 詳しくは、[conversations](#conversations) の節を参照してください。
-2. **入力ボックス**：入力ボックスを選択して、AI アシスタントの質問とプロンプトを入力します。 詳しくは、[&#x200B; 入力機能 &#x200B;](#input-features) の節を参照してください。
-3. **データとオブジェクトのオートコンプリート**: - データとオブジェクトの提案とオートコンプリートを使用するには、プラスアイコンを選択します。 このオプションを選択すると、ポップアップウィンドウを使用してエンティティの候補を選択できます。 詳しくは、[&#x200B; データとオブジェクトのオートコンプリート &#x200B;](#autocomplete) の節を参照してください。
-4. **コンテキスト設定**: - AI アシスタントの情報ソースを設定するには、「コンテキスト設定」アイコンを選択します。 このツールを使用して、AI アシスタントがクエリに回答するために参照するアプリケーション、サンドボックス、データビューを設定できます。 詳しくは、[&#x200B; コンテキスト設定 &#x200B;](#context-setting) の節を参照してください。
-5. **検出**: - **[!UICONTROL 学習]**、**[!UICONTROL 分析]** および **[!UICONTROL 最適化]** を選択して、開始するために使用できるサンプルクエリを表示します。 詳しくは、[&#x200B; 検出性プロンプト &#x200B;](#discoverability-prompts) の節を参照してください。
+2. **入力ボックス**：入力ボックスを選択して、AI アシスタントの質問とプロンプトを入力します。 詳しくは、[ 入力機能 ](#input-features) の節を参照してください。
+3. **データとオブジェクトのオートコンプリート**: - データとオブジェクトの提案とオートコンプリートを使用するには、プラスアイコンを選択します。 このオプションを選択すると、ポップアップウィンドウを使用してエンティティの候補を選択できます。 詳しくは、[ データとオブジェクトのオートコンプリート ](#autocomplete) の節を参照してください。
+4. **コンテキスト設定**: - AI アシスタントの情報ソースを設定するには、「コンテキスト設定」アイコンを選択します。 このツールを使用して、AI アシスタントがクエリに回答するために参照するアプリケーション、サンドボックス、データビューを設定できます。 詳しくは、[ コンテキスト設定 ](#context-setting) の節を参照してください。
+5. **検出**: - **[!UICONTROL 学習]**、**[!UICONTROL 分析]** および **[!UICONTROL 最適化]** を選択して、開始するために使用できるサンプルクエリを表示します。 詳しくは、[ 検出性プロンプト ](#discoverability-prompts) の節を参照してください。
 
-![&#x200B; フルスクリーンの AI アシスタント &#x200B;](./images/ai-assistant/ui-home.png)
+![ フルスクリーンの AI アシスタント ](./images/ai-assistant/ui-home.png)
 
 ### パネルビュー
 
@@ -61,10 +61,10 @@ AI アシスタント インターフェイスには、効果的にやり取り�
 1. **[!UICONTROL 新機能]**: **[!UICONTROL 新機能]** を選択すると、AI アシスタントで利用可能な最新のアップデートのリストが表示されます。
 1. **[!UICONTROL 会話]**: **[!UICONTROL 会話]** アイコンを選択して新しい会話を開始し、履歴から最近の会話にアクセスします。 詳しくは、[conversations](#conversations) の節を参照してください。
 1. **全画面表示**:「**[!UICONTROL 全画面表示]**」アイコンを選択して、AI アシスタントのインターフェイスを右側のパネルから全画面表示モードに変更します。
-1. **データとオブジェクトのオートコンプリート**：データとオブジェクトの提案およびオートコンプリートを使用するには、プラスアイコンを選択します。 このオプションを選択すると、ポップアップウィンドウを使用してエンティティの候補を選択できます。 詳しくは、[&#x200B; データとオブジェクトのオートコンプリート &#x200B;](#autocomplete) の節を参照してください。
-1. **コンテキスト設定**:「コンテキスト設定」アイコンを選択して、AI アシスタントの情報ソースを設定します。 このツールを使用して、AI アシスタントがクエリに回答するために参照するアプリケーション、サンドボックス、データビューを設定できます。 詳しくは、[&#x200B; コンテキスト設定 &#x200B;](#context-setting) の節を参照してください。
+1. **データとオブジェクトのオートコンプリート**：データとオブジェクトの提案およびオートコンプリートを使用するには、プラスアイコンを選択します。 このオプションを選択すると、ポップアップウィンドウを使用してエンティティの候補を選択できます。 詳しくは、[ データとオブジェクトのオートコンプリート ](#autocomplete) の節を参照してください。
+1. **コンテキスト設定**:「コンテキスト設定」アイコンを選択して、AI アシスタントの情報ソースを設定します。 このツールを使用して、AI アシスタントがクエリに回答するために参照するアプリケーション、サンドボックス、データビューを設定できます。 詳しくは、[ コンテキスト設定 ](#context-setting) の節を参照してください。
 
-![&#x200B; パネルビューの AI アシスタント &#x200B;](./images/ai-assistant/rail-mode.png)
+![ パネルビューの AI アシスタント ](./images/ai-assistant/rail-mode.png)
 
 ## AI アシスタント UI ガイド
 
@@ -82,19 +82,19 @@ AI アシスタントの検出機能を使用して、AI アシスタントが�
 
 検出プロンプトを使用して製品の知識を深めるには、「**[!UICONTROL 学習]**」を選択し、表示されるドロップダウンウィンドウからプロンプトを選択します。
 
-![&#x200B; 全画面表示からの検出プロンプトの選択。](./images/ai-assistant/inputs/discover.png)
+![ 全画面表示からの検出プロンプトの選択。](./images/ai-assistant/inputs/discover.png)
 
 >[!TAB  パネルビューからの Discover の使用 ]
 
 パネルビューから **[!UICONTROL 検出]** を選択すると、検出プロンプトの広範なリストにアクセスできます。検出プロンプトは、開始して AI アシスタントとチャットに入力するために使用できます。
 
-![&#x200B; パネルビューからの検出パネル &#x200B;](./images/ai-assistant/inputs/discover-rail.png)
+![ パネルビューからの検出パネル ](./images/ai-assistant/inputs/discover-rail.png)
 
 >[!ENDTABS]
 
 入力ボックスに入力するプロンプトを選択します。 ここから、特定の使用例に合わせてプロンプトを編集できます。 準備が整ったら、右側の送信アイコンを選択して、クエリを送信します。
 
-![&#x200B; 入力ボックスの検出プロンプト &#x200B;](./images/ai-assistant/inputs/question-input.png)
+![ 入力ボックスの検出プロンプト ](./images/ai-assistant/inputs/question-input.png)
 
 ## 回答とのやり取り
 
@@ -104,7 +104,7 @@ AI アシスタントの検出機能を使用して、AI アシスタントが�
 
 基礎となる推論プロセスをより深く理解するには、**[!UICONTROL 推論の完了]** を選択します。
 
-![AI アシスタントの応答 &#x200B;](./images/ai-assistant/inputs/answer.png)
+![AI アシスタントの応答 ](./images/ai-assistant/inputs/answer.png)
 
 *[!UICONTROL 推論完了]* ウィンドウが展開され、リクエストの概要と、応答の作成方法の詳細が表示されます。
 
@@ -114,21 +114,21 @@ AI アシスタントの検出機能を使用して、AI アシスタントが�
 
 次に、応答の下部に移動し、**[!UICONTROL 関連候補]** を選択して、最初のクエリに関するプロンプトのリストを受け取ります。 これらのプロンプトを使用して、AI アシスタントとさらに会話を続けることができます。
 
-![AI アシスタントの関連候補ウィンドウ &#x200B;](./images/ai-assistant/inputs/related-suggestions.png)
+![AI アシスタントの関連候補ウィンドウ ](./images/ai-assistant/inputs/related-suggestions.png)
 
 ### ソースを表示
 
 AI アシスタントの応答を確認するには、[**[!UICONTROL ソース]**] を選択して、AI アシスタントが応答の計算時に参照する情報ソースのリストを表示します。
 
-![AI アシスタントが参照するソースのリスト &#x200B;](./images/ai-assistant/inputs/sources.png)
+![AI アシスタントが参照するソースのリスト ](./images/ai-assistant/inputs/sources.png)
 
-### フィードバックを提供
+### フィードバックの提供
 
 回答に用意されているオプションを使用して、AI アシスタントでエクスペリエンスのフィードバックを提供できます。
 
 フィードバックを入力するには、AI アシスタントから応答を受信した後で [ サムネイルを上へ ] または [ サムネイルを下へ ] を選択し、表示されたテキスト ボックスにフィードバックを入力します。
 
-![AI アシスタントのサムズアップ アイコンとサムズダウン アイコン &#x200B;](./images/ai-assistant/inputs/feedback.png)
+![AI アシスタントのサムズアップ アイコンとサムズダウン アイコン ](./images/ai-assistant/inputs/feedback.png)
 
 >[!BEGINTABS]
 
@@ -138,11 +138,11 @@ AI アシスタントの応答を確認するには、[**[!UICONTROL ソース]*
 
 +++選択して表示
 
-![&#x200B; フィードバックウィンドウが表示されます。](./images/ai-assistant/inputs/thumbs-up.png)
+![ フィードバックウィンドウが表示されます。](./images/ai-assistant/inputs/thumbs-up.png)
 
 また、「**[!UICONTROL 詳細なフィードバック]**」を選択して、フィードバックをさらに詳しく説明することもできます。 終了したら、「**[!UICONTROL 送信]**」を選択します。
 
-![&#x200B; サムズアップの詳細なフィードバックウィンドウ。](./images/ai-assistant/inputs/thumbs-up-detailed.png)
+![ サムズアップの詳細なフィードバックウィンドウ。](./images/ai-assistant/inputs/thumbs-up-detailed.png)
 
 +++
 
@@ -152,11 +152,11 @@ AI アシスタントの応答を確認するには、[**[!UICONTROL ソース]*
 
 +++選択して表示
 
-![&#x200B; フィードバックのウィンドウが縮小表示されます。](./images/ai-assistant/inputs/thumbs-down.png)
+![ フィードバックのウィンドウが縮小表示されます。](./images/ai-assistant/inputs/thumbs-down.png)
 
 同様に、**[!UICONTROL 詳細なフィードバック]** を選択して、フィードバックをさらに詳しく説明することもできます。 終了したら、「**[!UICONTROL 送信]**」を選択します。
 
-![&#x200B; サムズダウンの詳細なフィードバックウィンドウ。](./images/ai-assistant/inputs/thumbs-down-detailed.png)
+![ サムズダウンの詳細なフィードバックウィンドウ。](./images/ai-assistant/inputs/thumbs-down-detailed.png)
 
 +++
 
@@ -166,59 +166,59 @@ AI アシスタントの応答を確認するには、[**[!UICONTROL ソース]*
 
 AI アシスタントの応答に画像が含まれる場合は、パスアイコンを選択して分割ビューモードを起動できます。 これにより、右側に表示されるコンテキスト画像を使用して、AI アシスタントの応答全体を読み取ることができます。
 
-![AI アシスタントの分割ビューモード &#x200B;](./images/ai-assistant/inputs/split-view.png)
+![AI アシスタントの分割ビューモード ](./images/ai-assistant/inputs/split-view.png)
 
 ### 会話
 
 *[!UICONTROL すべての会話]* パネルを使用して、AI アシスタントで会話をリセットして再訪問できます。 **[!UICONTROL すべての会話]** ウィンドウを表示するには、*[!UICONTROL 会話]* アイコンを選択します。
 
-![AI アシスタントの会話ウィンドウ &#x200B;](./images/ai-assistant/conversations/select-conversations.png)
+![AI アシスタントの会話ウィンドウ ](./images/ai-assistant/conversations/select-conversations.png)
 
 以前の会話に再度アクセスするには、表示されたリストから会話トピックを選択します。
 
-![AI アシスタントに記録されている以前の会話のリスト &#x200B;](./images/ai-assistant/conversations/revisit-conversation.png)
+![AI アシスタントに記録されている以前の会話のリスト ](./images/ai-assistant/conversations/revisit-conversation.png)
 
 新しい会話を開始するには、「**[!UICONTROL 新しい会話]**」を選択します。
 
-![&#x200B; 「新しい会話」オプションが選択されました。](./images/ai-assistant/conversations/new-conversation.png)
+![ 「新しい会話」オプションが選択されました。](./images/ai-assistant/conversations/new-conversation.png)
 
 ### コンテキスト設定 {#context-setting}
 
 AI Assistant のコンテキスト設定機能を使用して、AI Assistant が参照する **application**、**sandbox**、および **dataview** を設定し、クエリに回答します。 コンテキスト設定にアクセスするには、「**[!UICONTROL コンテキスト設定]**」アイコンを入力ボックスから選択します。
 
-![&#x200B; コンテキスト設定アイコンが選択されています。](./images/ai-assistant/inputs/context-selection.png)
+![ コンテキスト設定アイコンが選択されています。](./images/ai-assistant/inputs/context-selection.png)
 
 *[!UICONTROL Answer from...]* ポップアップウィンドウが表示されます。 このウィンドウを使用して、使用する情報ソースを設定し、「コンテキストを設定 **[!UICONTROL を選択し]** す。
 
 | 情報ソース | 説明 | 例 |
 | --- | --- | --- |
 | アプリ | クエリが関連するExperience Cloud アプリケーション。 | Experience Platform、Journey Optimizer、Customer Journey Analyticsなど |
-| Sandbox | クエリが関連するデータセットや情報を含んだサンドボックス。 | 実稼動（VA7）、開発 |
+| サンドボックス | クエリが関連するデータセットや情報を含んだサンドボックス。 | 実稼動（VA7）、開発 |
 | データビュー | Customer Journey Analyticsで AI アシスタントを使用している場合、データビュー設定はData Insights Agentが以下を理解するのに役立ちます。 <ul><li>クエリするデータセット</li><li>使用可能なデータコンポーネント</li><li>データに関する応答の構造化方法</li><li>Analysis Workspaceで作成するビジュアライゼーション</li></ul> |
 
-![&#x200B; 情報ソースを設定できる「回答元」パネル &#x200B;](./images/ai-assistant/inputs/answer-from.png)
+![ 情報ソースを設定できる「回答元」パネル ](./images/ai-assistant/inputs/answer-from.png)
 
 ### データとオブジェクトのオートコンプリート
 
 オートコンプリート関数を使用して、サンドボックスに存在するデータオブジェクトのリストを受け取ることができます。 オートコンプリートを使用するには、クエリにプラスアイコン（+）を入力します。 または、テキスト入力ボックスの下部にあるプラスアイコン（+）を選択することもできます。 ウィンドウが開き、サンドボックスから推奨されるデータオブジェクトのリストが表示されます。
 
-![&#x200B; 選択したデータとオブジェクトのオートコンプリートボタン &#x200B;](./images/ai-assistant/autocomplete/autocomplete.png)
+![ 選択したデータとオブジェクトのオートコンプリートボタン ](./images/ai-assistant/autocomplete/autocomplete.png)
 
 ### 応答の検証
 
 AI アシスタントからの応答を確認する方法はいくつかあります。 「**[!UICONTROL オブジェクトと一致する用語をクエリ]**」を選択すると、組織内の特定のオブジェクトと一致するクエリ内の用語の概要が表示されます。
 
-![&#x200B; クエリ用語が応答と一致しました。](./images/ai-assistant/autocomplete/query-terms.png)
+![ クエリ用語が応答と一致しました。](./images/ai-assistant/autocomplete/query-terms.png)
 
 **[!UICONTROL 以下は、結果を得た方法です]** を選択して、AI アシスタントが回答にどのように到達したかについて詳細な手順を確認します。 さらに、質問に回答するために実行された SQL クエリを表示することもできます。 このクエリは読み取り専用で、クエリサービスでの使用はサポートされていません。
 
-![AI アシスタントの SQL 検証ツール &#x200B;](./images/ai-assistant/autocomplete/verifications.png)
+![AI アシスタントの SQL 検証ツール ](./images/ai-assistant/autocomplete/verifications.png)
 
 ### データビジュアライゼーションの設定
 
 AI アシスタントのデータビジュアライゼーション機能を使用すると、データをより深く理解できます。 また、クエリで使用するグラフのタイプを指定することもできます。 例えば、「**先月の製品名で利益を表示（棒）」** というクエリを送信すると、先月の利益の棒グラフを製品名別に整理して受け取ります。
 
-![AI アシスタントに表示される棒グラフ &#x200B;](./images/ai-assistant/visualization/graph.png)
+![AI アシスタントに表示される棒グラフ ](./images/ai-assistant/visualization/graph.png)
 
 次に、「**[!UICONTROL プロパティ]**」を選択して、グラフタイプを変更し、X 軸と Y 軸の値を設定します。
 
@@ -226,7 +226,7 @@ AI アシスタントは、データ ビジュアライゼーション用に複�
 
 >[!BEGINTABS]
 
->[!TAB  行 ]
+>[!TAB Line]
 
 折れ線グラフを表示するには、「プロパティ **[!UICONTROL を選択してから]** 折れ線グラフ **[!UICONTROL を選択し]** す。
 
@@ -236,7 +236,7 @@ AI アシスタントは、データ ビジュアライゼーション用に複�
 
 面グラフを表示するには、**[!UICONTROL プロパティ]** を選択してから **[!UICONTROL 面グラフ]** を選択します。
 
-![AI アシスタントの領域グラフ &#x200B;](./images/ai-assistant/visualization/area.png)
+![AI アシスタントの領域グラフ ](./images/ai-assistant/visualization/area.png)
 
 >[!TAB  散布図 ]
 
@@ -244,7 +244,7 @@ AI アシスタントは、データ ビジュアライゼーション用に複�
 
 ![AI アシスタントの散布図。](./images/ai-assistant/visualization/scatter.png)
 
->[!TAB  ドーナツ ]
+>[!TAB ドーナツ]
 
 ドーナツグラフを表示するには、「**[!UICONTROL プロパティ]**」を選択してから、「**[!UICONTROL ドーナツ]**」を選択します。
 
