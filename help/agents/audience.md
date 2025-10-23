@@ -1,7 +1,7 @@
 ---
 title: Audience Agent
 description: Audience Agentを使用して、オーディエンスの作成、オーディエンスの変更の表示、重複するオーディエンスの検出、オーディエンスインサイトの表示をおこなう方法について説明します。
-source-git-commit: 2c50a4abaf9606e3c7887073053d0cde3ec761e5
+source-git-commit: f2b5bd1a59055a8ca6785abfc2d0a336eea7fd98
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 2%
@@ -20,6 +20,8 @@ ht-degree: 2%
 >**セグメントの管理**：権限があれば、Audience Agentを使用して AI アシスタントで新しいオーディエンスを直接作成できます。
 
 Audience Agentを使用すると、オーディエンスサイズの大きな変化の検出、重複オーディエンスの検出、オーディエンスインベントリの調査、オーディエンスのサイズの取得など、オーディエンスに関するインサイトを表示できます。
+
+>[!SLIDE](audience-agent-overview)
 
 ## サポートされるユースケース
 
@@ -179,5 +181,5 @@ Audience Agentは、（現在 **次の機能をサポートしていません**�
 
 ## 次の手順
 
-このガイドを読むことで、Audience Agentとそのサポートする機能について、理解を深めることができました。 Adobe Experience Platformのエージェントについて詳しくは、[Agent Orchestratorの概要 &#x200B;](./agent-orchestrator.md) を参照してください。
+このガイドを読むことで、Audience Agentとそのサポートする機能について、理解を深めることができました。 Adobe Experience Platformのエージェントについて詳しくは、[Agent Orchestratorの概要 ](./agent-orchestrator.md) を参照してください。
 
