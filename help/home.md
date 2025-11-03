@@ -1,9 +1,9 @@
 ---
 title: Experience Cloud アプリケーションの AI
 description: Experience Cloud アプリケーションで生成 AI（GenAI）、AI アシスタント、エージェント型 AI がどのように使用されるかについて説明します。
-source-git-commit: a19c891d1a17c9112aff3d9a52daa94ad162a553
+source-git-commit: 8c05562121071874002afd6d248f16186616da55
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '830'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ Adobe Experience Cloud アプリケーション全体の AI 機能の包括的�
 
 ### AI アシスタント
 
-[AI アシスタント &#x200B;](./ai-assistant/ai-assistant-ui.md) は、Adobe Experience Platform ベースのアプリケーションで生産性を向上させ、作業を再定義するインテリジェントな会話型ジェネレーティブ AI ツールです。 ユーザーは、自然言語プロンプトを通じて、製品に関する知識を得たり、問題をトラブルシューティングしたり、運用に関するインサイトを見つけたりできます。 また、AI アシスタントを使用して、Adobe Experience Platform Agent やその他の AI 機能にアクセスすることもできます。
+[AI アシスタント ](./ai-assistant/ai-assistant-ui.md) は、Adobe Experience Platform ベースのアプリケーションで生産性を向上させ、作業を再定義するインテリジェントな会話型ジェネレーティブ AI ツールです。 ユーザーは、自然言語プロンプトを通じて、製品に関する知識を得たり、問題をトラブルシューティングしたり、運用に関するインサイトを見つけたりできます。 また、AI アシスタントを使用して、Adobe Experience Platform Agent やその他の AI 機能にアクセスすることもできます。
 
 **主な特長：**
 
@@ -48,6 +48,8 @@ Audience Agentは、次のようなオーディエンスに関するインサイ
 - オーディエンスインベントリの調査。
 - オーディエンスサイズを取得中。
 
+詳しくは、[Audience Agent ドキュメント ](./agents/audience.md) を参照してください。
+
 #### Data Insights Agent
 
 Customer Journey Analytics、Data Insights Agentで使用可能：
@@ -56,13 +58,15 @@ Customer Journey Analytics、Data Insights Agentで使用可能：
 - Analysis Workspaceで関連するビジュアライゼーションを作成します。
 - データビューと実際のデータのコンポーネントを使用します。
 
-#### Journey Agent
+#### ジャーニー分析エージェント
 
-Journey Agentを使用すると、Adobe Journey Optimizer ユーザーは次のことができます。
+ジャーニー分析エージェントを使用すると、Adobe Journey Optimizer ユーザーは次のことが可能です。
 
 - 自然言語を使用してジャーニーを分析し、最適化します。
 - スケジュールまたはオーディエンスの競合を検出して解決します。
 - パフォーマンスとドロップオフポイントを分析します。
+
+詳しくは、[ジャーニー分析エージェントのドキュメント ](./agents/ajo-agent-analyze.md) を参照してください。
 
 #### 製品サポート担当者
 
@@ -71,6 +75,8 @@ Journey Agentを使用すると、Adobe Journey Optimizer ユーザーは次の�
 - ワークフローを離れることなく、Adobe Experience Platform機能のトラブルシューティングを行います。
 - AI アシスタントのインタラクションから、コンテキストを使用してサポートチケットを作成します。
 - AI アシスタントを使用してチケットのアップデートを確認します。
+
+詳しくは、[ 製品サポートエージェントのドキュメント ](./agents/product-support.md) を参照してください。
 
 ## はじめに
 
