@@ -16,7 +16,7 @@ ht-degree: 5%
 >
 >Data Insights Agentは、対象となるお客様が期間限定で利用できます。 Data Insights Agentへのアクセスは 2026 年 2 月 28 日に終了します。 Data Insights Agentを引き続き使用するには、Adobe アカウント担当者に連絡して、Data Insights Agentのライセンスの詳細を問い合わせてください。
 
-Data Insights Agentは、Customer Journey Analyticsの [AI アシスタント &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) からアクセスでき、データに関する質問に迅速かつ効率的に回答するジェネレーティブ AI コンバージョンエージェントです。 データビューのコンポーネントと実際のデータを使用して、Analysis Workspace で関連するビジュアライゼーションを作成します。
+Data Insights Agentは、Customer Journey Analyticsの [AI アシスタント &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) からアクセスでき、データに関する質問に迅速かつ効率的に回答するジェネレーティブ AI コンバージョンエージェントです。 データビューのコンポーネントと実際のデータを使用して、Analysis Workspace で関連するビジュアライゼーションを作成します。
 
 Data Insights Agentを使用してAnalysis Workspaceのデータ中心の質問に回答すると、Analysis Workspaceでビジュアライゼーションを手動で作成してデータビューコンポーネントに慣れる時間を大幅に節約できます。
 
@@ -71,7 +71,7 @@ Data Insights Agentを使用してAnalysis Workspaceのデータ中心の質問�
 
    1. 「**[!UICONTROL 保存]**」を選択して、権限を保存します。
 
-  アクセス制御について詳しくは、[&#x200B; アクセス制御 &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#access-control) を参照してください。
+  アクセス制御について詳しくは、[&#x200B; アクセス制御 &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/technotes/access-control#access-control) を参照してください。
 
 * **データビューアクセス**:Data Insights Agentでデータビューを有効にする必要があります。
 
@@ -254,7 +254,7 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 
 >[!MORELIKETHIS]
 >
->[&#x200B; コンポーネント設定 &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
->[データディクショナリ &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
->[計算指標を承認 &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
->[セグメント &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/segments/seg-share) 共有
+>[&#x200B; コンポーネント設定 &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+>[データディクショナリ &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[計算指標を承認 &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
+>[セグメント &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/segments/seg-share) 共有
