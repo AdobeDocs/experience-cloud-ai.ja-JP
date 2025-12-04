@@ -14,11 +14,11 @@ ht-degree: 3%
 >
 >Experimentation Agentは、Journey Optimizer Experimentation Acceleratorの有料ライセンスを購入したお客様が利用でき、Adobe TargetまたはAdobe Journey Optimizerとシームレスに統合されます。
 >
->[ 詳しくは、Journey Optimizer Experimentation Acceleratorを参照してください ](https://experienceleague.adobe.com/ja/docs/experimentation-accelerator/using/overview)
+>[&#x200B; 詳しくは、Journey Optimizer Experimentation Acceleratorを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experimentation-accelerator/using/overview)
 
 ## 概要
 
-**0}Experimentation Agent} は、Web サイト、メール、プッシュメッセージおよびアプリケーションをまたいでデジタル実験を実行および管理する方法を最新化する、AI を活用したツールです。** Adobe Experience Platform AI プラットフォームと実験ツール上に構築された **Experimentation Agent** は、実験をより効率的に実行し、ビジネス目標を整理し、実用的なインサイトを生み出し、うまくいったこと、うまくいかなかったこと、次に実験する場所を強調表示するのに役立ちます。
+**0&rbrace;Experimentation Agent&rbrace; は、Web サイト、メール、プッシュメッセージおよびアプリケーションをまたいでデジタル実験を実行および管理する方法を最新化する、AI を活用したツールです。** Adobe Experience Platform AI プラットフォームと実験ツール上に構築された **Experimentation Agent** は、実験をより効率的に実行し、ビジネス目標を整理し、実用的なインサイトを生み出し、うまくいったこと、うまくいかなかったこと、次に実験する場所を強調表示するのに役立ちます。
 
 Experimentation Agentの機能を完全に使用するには、次の権限が必要です。
 
@@ -26,7 +26,7 @@ Experimentation Agentの機能を完全に使用するには、次の権限が�
 
 * **実験メタデータを管理**：この権限を持つユーザーは、Experimentation Agentを使用して AI アシスタントで新しい実験を直接作成できます。
 
-➡️ [ 詳しくは、Journey Optimizer Experimentation Accelerator ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
+➡️ [&#x200B; 詳しくは、Journey Optimizer Experimentation Accelerator ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
 Experimentation Accelerator機能の一部として、エージェントは次の機能を提供します。
 
@@ -36,7 +36,7 @@ Experimentation Accelerator機能の一部として、エージェントは次�
 
 * **機会**：次に取るべき行動に関するガイダンス
 
-![Experimentation Agentのサンプル ](./images/experiment/experiment-agent.png)
+![Experimentation Agentのサンプル &#x200B;](./images/experiment/experiment-agent.png)
 
 ## ユースケース
 
