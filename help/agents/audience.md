@@ -1,9 +1,9 @@
 ---
 title: Audience Agent
 description: Audience Agentを使用して、オーディエンスの作成、オーディエンスの変更の表示、重複するオーディエンスの検出、オーディエンスインサイトの表示をおこなう方法について説明します。
-source-git-commit: f2b5bd1a59055a8ca6785abfc2d0a336eea7fd98
+source-git-commit: ca3766477459fb13170d176057a3ea9fbb791b29
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '1204'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,9 @@ AI アシスタント内のAudience Agentは、次のユースケースをサポ
    - オーディエンスの定義に使用できる XDM フィールドを見つける
 - オーディエンスサイズの大きな変化を検出
    - これにより、急激に増加または縮小したオーディエンスを見つけることができ、潜在的な市場変化をより詳細に分析できます
+- オーディエンスの作成
+   - このスキルでは、指定された属性とイベントに基づいてオーディエンスを作成できます
+   - また、このスキルを使用すると、オーディエンスを作成する前にオーディエンスの潜在的なサイズを見積もることができ、アクティブ化の準備が整う前に、最も効果的なオーディエンスに対してすばやく繰り返し処理できます
 
 <!-- - Find your audience size and detect significant changes in audience size
   - This lets you find audiences that have suddenly grown or shrunk, letting you better analyze potential market changes
@@ -44,12 +47,8 @@ AI アシスタント内のAudience Agentは、次のユースケースをサポ
 - Discover XDM fields you can use to define an audience
   - This skill lets you more easily identify the right fields to use in your audience based on context and relevance -->
 
-Audience Agentは、（現在 **次の機能をサポートしていません**。
+Audience Agentは **現在** 次の機能をサポートしていません。
 
-- ナレッジベースのオーディエンス作成
-   - ナレッジベースのオーディエンス作成は、指定された属性とイベントに基づいてオーディエンスを作成することです
-   - さらに、オーディエンスの作成前に、オーディエンスの潜在的なサイズを見積もることができます。 これにより、アクティブ化の準備が整う前に、最も効果的なオーディエンスに対してすばやく繰り返し処理を行うことができます
-   - この機能のサポートは、近日中に提供されます
 - 目標ベースのオーディエンス探索
    - 目標ベースのオーディエンス探索を使用すると、購入や変換の傾向などの機械学習モデルを適用することで、ビジネス目標に合致した関連データセットとプロファイルを見つけることができます。
 
@@ -179,7 +178,81 @@ Audience Agentは、（現在 **次の機能をサポートしていません**�
 
 +++
 
+### オーディエンスの作成
+
+Audience Agentでオーディエンスを作成する場合、AI アシスタントがプランのガイドとなります。 例えば、「カリフォルニアに住む人々で構成されるオーディエンスを作成」するように依頼できます。 次に、AI アシスタントが、オーディエンスの作成に取り組む計画のリストを示します。
+
++++ 応答
+
+![AI アシスタントは、オーディエンスを作成する計画を示します。](./images/audience/audience-create-plan.png)
+
++++
+
+このプランは、次の 3 つの手順で構成されます。
+
+1. [オーディエンスの特性の特定](#identify)
+2. [オーディエンスサイズの推定](#estimate)
+3. [新しいオーディエンスの作成と永続化](#create)
+
+#### オーディエンスの特性の特定 {#identify}
+
+![ プランのステップ 1：オーディエンスの特性を特定する ](./images/audience/plan-step-1.png){align="center" width="80%"}
+
+計画を承認すると、AI アシスタントは最初のクエリに基づいてオーディエンスの特性を取得します。
+
++++ 応答
+
+![ ユーザークエリに基づくオーディエンス定義。](./images/audience/audience-create-definition.png)
+
+このクエリでは、AI アシスタントがカリフォルニア州に住むユーザーを検索する関連するProfile Query Language（PQL）を生成します。 このユースケースでは、PQL クエリは次のようになります。
+
+```sql
+homeAddress.state.equals("California", false)
+```
+
+PQLについて詳しくは、[PQLの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview) を参照してください。
+
++++
+
+AI アシスタントのオーディエンス定義が正しい場合は、承認して次の手順に進むことができます。
+
+#### オーディエンスサイズの推定 {#estimate}
+
+![ 計画のステップ 2：潜在的なオーディエンスのサイズを推定します。](./images/audience/plan-step-2.png){align="center" width="80%"}
+
+識別されたオーディエンス特性を承認した後、AI アシスタントは潜在的なオーディエンスのサイズとオーディエンス定義の詳細を見積もります。
+
++++ 応答
+
+![ 潜在的なオーディエンスのサンプル推定が表示されます。 推定サイズとセグメント定義が表示されます。](./images/audience/audience-create-estimate.png)
+
++++
+
+推定サイズが正しいと思われる場合は、承認して次の手順に進むことができます。
+
+#### 新しいオーディエンスの作成と永続化 {#create}
+
+![ オーディエンスの作成を完了する計画の手順 3。](./images/audience/plan-step-3.png){align="center" width="80%"}
+
+最後に、特性とオーディエンスサイズが正しければ、オーディエンスの作成を承認または却下できます。
+
++++ 応答
+
+まず、提供されたデータグリッドを使用して、提案されたオーディエンスを確認できます。
+
+![ レビュー画面が表示されます。](./images/audience/audience-create-review.png)
+
+オーディエンスが正しいと思われる場合は、「**[!UICONTROL 作成]**」を選択して提案を承認し、オーディエンスの作成を完了できます。
+
+![ オーディエンスの完全な提案が表示されます。](./images/audience/audience-create-proposal.png)
+
++++
+
+これで、オーディエンスが作成されました。
+
+![ オーディエンスの提案が承認され、オーディエンスが作成されました。](./images/audience/audience-finish-create.png){align="center" width="80%"}
+
 ## 次の手順
 
-このガイドを読むことで、Audience Agentとそのサポートする機能について、理解を深めることができました。 Adobe Experience Platformのエージェントについて詳しくは、[Agent Orchestratorの概要 &#x200B;](./agent-orchestrator.md) を参照してください。
+このガイドを読むことで、Audience Agentとそのサポートする機能について、理解を深めることができました。 Adobe Experience Platformのエージェントについて詳しくは、[Agent Orchestratorの概要 ](./agent-orchestrator.md) を参照してください。
 
