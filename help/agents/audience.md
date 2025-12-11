@@ -1,9 +1,9 @@
 ---
 title: Audience Agent
 description: Audience Agentを使用して、オーディエンスの作成、オーディエンスの変更の表示、重複するオーディエンスの検出、オーディエンスインサイトの表示をおこなう方法について説明します。
-source-git-commit: ca3766477459fb13170d176057a3ea9fbb791b29
+source-git-commit: effd4fe4123953b6af375dfb46fcc669b2e35df1
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1229'
 ht-degree: 2%
 
 ---
@@ -180,6 +180,10 @@ Audience Agentは **現在** 次の機能をサポートしていません。
 
 ### オーディエンスの作成
 
+>[!AVAILABILITY]
+>
+>オーディエンスを作成スキルを使用できるのは、Agent Orchestrator エクスプローラープログラムに参加している場合のみです。 詳しくは、Adobe カスタマーケアにお問い合わせください。
+
 Audience Agentでオーディエンスを作成する場合、AI アシスタントがプランのガイドとなります。 例えば、「カリフォルニアに住む人々で構成されるオーディエンスを作成」するように依頼できます。 次に、AI アシスタントが、オーディエンスの作成に取り組む計画のリストを示します。
 
 +++ 応答
@@ -196,13 +200,13 @@ Audience Agentでオーディエンスを作成する場合、AI アシスタン
 
 #### オーディエンスの特性の特定 {#identify}
 
-![&#x200B; プランのステップ 1：オーディエンスの特性を特定する &#x200B;](./images/audience/plan-step-1.png){align="center" width="80%"}
+![ プランのステップ 1：オーディエンスの特性を特定する ](./images/audience/plan-step-1.png){align="center" width="80%"}
 
 計画を承認すると、AI アシスタントは最初のクエリに基づいてオーディエンスの特性を取得します。
 
 +++ 応答
 
-![&#x200B; ユーザークエリに基づくオーディエンス定義。](./images/audience/audience-create-definition.png)
+![ ユーザークエリに基づくオーディエンス定義。](./images/audience/audience-create-definition.png)
 
 このクエリでは、AI アシスタントがカリフォルニア州に住むユーザーを検索する関連するProfile Query Language（PQL）を生成します。 このユースケースでは、PQL クエリは次のようになります。
 
@@ -210,7 +214,7 @@ Audience Agentでオーディエンスを作成する場合、AI アシスタン
 homeAddress.state.equals("California", false)
 ```
 
-PQLについて詳しくは、[PQLの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/pql/overview) を参照してください。
+PQLについて詳しくは、[PQLの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview) を参照してください。
 
 +++
 
@@ -218,13 +222,13 @@ AI アシスタントのオーディエンス定義が正しい場合は、承�
 
 #### オーディエンスサイズの推定 {#estimate}
 
-![&#x200B; 計画のステップ 2：潜在的なオーディエンスのサイズを推定します。](./images/audience/plan-step-2.png){align="center" width="80%"}
+![ 計画のステップ 2：潜在的なオーディエンスのサイズを推定します。](./images/audience/plan-step-2.png){align="center" width="80%"}
 
 識別されたオーディエンス特性を承認した後、AI アシスタントは潜在的なオーディエンスのサイズとオーディエンス定義の詳細を見積もります。
 
 +++ 応答
 
-![&#x200B; 潜在的なオーディエンスのサンプル推定が表示されます。 推定サイズとセグメント定義が表示されます。](./images/audience/audience-create-estimate.png)
+![ 潜在的なオーディエンスのサンプル推定が表示されます。 推定サイズとセグメント定義が表示されます。](./images/audience/audience-create-estimate.png)
 
 +++
 
@@ -232,7 +236,7 @@ AI アシスタントのオーディエンス定義が正しい場合は、承�
 
 #### 新しいオーディエンスの作成と永続化 {#create}
 
-![&#x200B; オーディエンスの作成を完了する計画の手順 3。](./images/audience/plan-step-3.png){align="center" width="80%"}
+![ オーディエンスの作成を完了する計画の手順 3。](./images/audience/plan-step-3.png){align="center" width="80%"}
 
 最後に、特性とオーディエンスサイズが正しければ、オーディエンスの作成を承認または却下できます。
 
@@ -240,19 +244,19 @@ AI アシスタントのオーディエンス定義が正しい場合は、承�
 
 まず、提供されたデータグリッドを使用して、提案されたオーディエンスを確認できます。
 
-![&#x200B; レビュー画面が表示されます。](./images/audience/audience-create-review.png)
+![ レビュー画面が表示されます。](./images/audience/audience-create-review.png)
 
 オーディエンスが正しいと思われる場合は、「**[!UICONTROL 作成]**」を選択して提案を承認し、オーディエンスの作成を完了できます。
 
-![&#x200B; オーディエンスの完全な提案が表示されます。](./images/audience/audience-create-proposal.png)
+![ オーディエンスの完全な提案が表示されます。](./images/audience/audience-create-proposal.png)
 
 +++
 
 これで、オーディエンスが作成されました。
 
-![&#x200B; オーディエンスの提案が承認され、オーディエンスが作成されました。](./images/audience/audience-finish-create.png){align="center" width="80%"}
+![ オーディエンスの提案が承認され、オーディエンスが作成されました。](./images/audience/audience-finish-create.png){align="center" width="80%"}
 
 ## 次の手順
 
-このガイドを読むことで、Audience Agentとそのサポートする機能について、理解を深めることができました。 Adobe Experience Platformのエージェントについて詳しくは、[Agent Orchestratorの概要 &#x200B;](./agent-orchestrator.md) を参照してください。
+このガイドを読むことで、Audience Agentとそのサポートする機能について、理解を深めることができました。 Adobe Experience Platformのエージェントについて詳しくは、[Agent Orchestratorの概要 ](./agent-orchestrator.md) を参照してください。
 
