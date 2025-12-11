@@ -214,7 +214,7 @@ Audience Agentでオーディエンスを作成する場合、AI アシスタン
 homeAddress.state.equals("California", false)
 ```
 
-PQLについて詳しくは、[PQLの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview) を参照してください。
+PQLについて詳しくは、[PQLの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/pql/overview) を参照してください。
 
 +++
 
