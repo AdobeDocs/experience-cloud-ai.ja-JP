@@ -26,7 +26,7 @@ Experimentation Agentの機能を完全に使用するには、次の権限が�
 
 * **実験メタデータを管理**：この権限を持つユーザーは、Experimentation Agentを使用して AI アシスタントで新しい実験を直接作成できます。
 
-➡️ [&#x200B; 詳しくは、Journey Optimizer Experimentation Accelerator ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
+➡️ [&#x200B; 詳しくは、Journey Optimizer Experimentation Accelerator ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
 Experimentation Accelerator機能の一部として、エージェントは次の機能を提供します。
 
