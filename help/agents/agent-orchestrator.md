@@ -26,7 +26,7 @@ Agent Orchestratorは、AI アシスタントの会話型インターフェイ�
 
 ### AI アシスタントの会話型インターフェイス {#ai-assistant}
 
-AI アシスタントは、インテリジェントな自然言語による対話型エクスペリエンスで、Experience Cloudが有効になっているアプリケーションを使用している実務担当者が、GenAI 機能と Agentic AI 機能を活用できます。これらの機能は、お客様がライセンスを取得したExperience Cloud アプリケーションによって幅広く利用できます。 アクセスのロックを解除するには、[AI アシスタントへのアクセスに関するガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access) を参照してください。
+AI アシスタントは、インテリジェントな自然言語による対話型エクスペリエンスで、Experience Cloudが有効になっているアプリケーションを使用している実務担当者が、GenAI 機能と Agentic AI 機能を活用できます。これらの機能は、お客様がライセンスを取得したExperience Cloud アプリケーションによって幅広く利用できます。 アクセスのロックを解除するには、[AI アシスタントへのアクセスに関するガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/access) を参照してください。
 
 詳しくは、[AI アシスタント UI ガイド &#x200B;](../ai-assistant/ai-assistant-ui.md) を参照してください。
 
@@ -41,7 +41,7 @@ Adobe Experience Platform エージェントは、カスタマーエクスペリ
 | 代理人 | 詳細 | サポートされるアプリケーション |
 | --- | --- | --- |
 | [Audience Agent](audience.md) | Audience Agentでは、オーディエンスサイズの大きな変化の検出、重複するオーディエンスの検出、オーディエンスインベントリの調査、オーディエンスのサイズの取得など、オーディエンスに関するインサイトを表示できます。 | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> |
-| [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Data Insights Agentは、Customer Journey Analyticsの AI アシスタントからアクセスでき、データに関する質問に迅速かつ効率的に回答するジェネレーティブ AI コンバージョンエージェントです。 データビューのコンポーネントと実際のデータを使用して、Analysis Workspace で関連するビジュアライゼーションを作成します。 | Customer Journey Analytics |
+| [Data Insights Agent](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Data Insights Agentは、Customer Journey Analyticsの AI アシスタントからアクセスでき、データに関する質問に迅速かつ効率的に回答するジェネレーティブ AI コンバージョンエージェントです。 データビューのコンポーネントと実際のデータを使用して、Analysis Workspace で関連するビジュアライゼーションを作成します。 | Customer Journey Analytics |
 | [&#x200B; 試験事業者 &#x200B;](./agent-experiment.md) | Experimentation Agentを使用すると、実験結果を分析し、影響を予測し、新しい実験を提案することで、チームがより迅速に学習できるようになります。 過去の実験とアクティブな実験を一元化するので、既に学んだことに基づいて構築し、ギャップを見つけ、次にテストする項目を優先させることができます。 | Adobe Journey OptimizerExperimentation Accelerator |
 | [Journey Agent](./ajo-agent.md) | Journey Agentを使用すると、Adobe Journey Optimizer ユーザーは、自然言語インターフェイスを使用してジャーニーを作成、分析および最適化できます。 Journey Agentを使用すると、ジャーニーをすばやく構築し、スケジュールやオーディエンスの競合を検出および解決し、パフォーマンスとドロップオフポイントを分析し、今後のキャンペーンにレプリケートするパフォーマンスの高いジャーニーを特定することができます。 データに基づく意思決定を行い、顧客エンゲージメントを向上させ、ジャーニーオーケストレーションを合理化するのに役立ちます。 | Adobe Journey Optimizer |
 | [&#x200B; 製品サポート担当者 &#x200B;](product-support.md) | 製品サポートエージェントは、セルフサービスのデバッグおよびトラブルシューティング機能で、ワークフローから離れることなくAdobe Experience Platformの機能やアプリケーションをトラブルシューティングするのに役立ちます。 サポート管理者は、AI アシスタントのインタラクションからコンテキストを使用してカスタマーサポートチケットを作成し、AI アシスタントを通じてチケットの更新を確認できます。 | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey OptimizerB2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
