@@ -1,9 +1,9 @@
 ---
 title: Experience Cloud アプリケーションの AI
 description: Experience Cloud アプリケーションで生成 AI（GenAI）、AI アシスタント、エージェント型 AI がどのように使用されるかについて説明します。
-source-git-commit: 8c05562121071874002afd6d248f16186616da55
+source-git-commit: 0e3839f829efc5670c235435d49ed5e49da2ed13
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '829'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ Adobe Experience Cloud アプリケーション全体の AI 機能の包括的�
 
 ### AI アシスタント
 
-[AI アシスタント &#x200B;](./ai-assistant/ai-assistant-ui.md) は、Adobe Experience Platform ベースのアプリケーションで生産性を向上させ、作業を再定義するインテリジェントな会話型ジェネレーティブ AI ツールです。 ユーザーは、自然言語プロンプトを通じて、製品に関する知識を得たり、問題をトラブルシューティングしたり、運用に関するインサイトを見つけたりできます。 また、AI アシスタントを使用して、Adobe Experience Platform Agent やその他の AI 機能にアクセスすることもできます。
+[AI アシスタント ](./ai-assistant/ai-assistant-ui.md) は、Adobe Experience Platform ベースのアプリケーションで生産性を向上させ、作業を再定義するインテリジェントな会話型ジェネレーティブ AI ツールです。 ユーザーは、自然言語プロンプトを通じて、製品に関する知識を得たり、問題をトラブルシューティングしたり、運用に関するインサイトを見つけたりできます。 また、AI アシスタントを使用して、Adobe Experience Platform Agent やその他の AI 機能にアクセスすることもできます。
 
 **主な特長：**
 
@@ -48,7 +48,7 @@ Audience Agentは、次のようなオーディエンスに関するインサイ
 - オーディエンスインベントリの調査。
 - オーディエンスサイズを取得中。
 
-詳しくは、[Audience Agent ドキュメント &#x200B;](./agents/audience.md) を参照してください。
+詳しくは、[Audience Agent ドキュメント ](./agents/audience.md) を参照してください。
 
 #### Data Insights Agent
 
@@ -66,7 +66,7 @@ Customer Journey Analytics、Data Insights Agentで使用可能：
 - スケジュールまたはオーディエンスの競合を検出して解決します。
 - パフォーマンスとドロップオフポイントを分析します。
 
-詳しくは、[ジャーニー分析エージェントのドキュメント &#x200B;](./agents/ajo-agent-analyze.md) を参照してください。
+詳しくは、[Journey Agent ドキュメント ](./agents/ajo-agent.md) を参照してください。
 
 #### 製品サポート担当者
 
@@ -76,7 +76,7 @@ Customer Journey Analytics、Data Insights Agentで使用可能：
 - AI アシスタントのインタラクションから、コンテキストを使用してサポートチケットを作成します。
 - AI アシスタントを使用してチケットのアップデートを確認します。
 
-詳しくは、[&#x200B; 製品サポートエージェントのドキュメント &#x200B;](./agents/product-support.md) を参照してください。
+詳しくは、[ 製品サポートエージェントのドキュメント ](./agents/product-support.md) を参照してください。
 
 ## はじめに
 
