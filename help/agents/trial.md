@@ -25,7 +25,7 @@ ht-degree: 1%
 
 Adobeは、独自の判断で体験版の実施要件を決定します。 現在、または以前にAdobe Experience Platform Agent Orchestrator プロモーションライセンスまたはExperience Platform エージェント AI クレディットライセンスを持っているお客様は、体験版の対象ではありません。
 
-適格なお客様は、AI クレジット消費テーブルにリストされているジョブの組み合わせ（Experience Cloud アプリケーションに対する既存のライセンスに応じて）で使用する、最大 10,000 AI クレジットの初期の 1 回限りの使用権を受け取ります。 Adobe Experience Platform UI のライセンス使用状況ダッシュボードを使用して、AI クレジットをトラッキングできます。 詳しくは、[&#x200B; ライセンス使用状況ダッシュボードのドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) を参照してください。
+適格なお客様は、AI クレジット消費テーブルにリストされているジョブの組み合わせ（Experience Cloud アプリケーションに対する既存のライセンスに応じて）で使用する、最大 10,000 AI クレジットの初期の 1 回限りの使用権を受け取ります。 Adobe Experience Platform UI のライセンス使用状況ダッシュボードを使用して、AI クレジットをトラッキングできます。 詳しくは、[&#x200B; ライセンス使用状況ダッシュボードのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/dashboards/guides/license-usage) を参照してください。
 
 >[!IMPORTANT]
 >
