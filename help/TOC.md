@@ -5,10 +5,10 @@ user-guide-description: Adobe Experience Platform と Real-Time Customer Data Pl
 description: Experience Cloud の AI アシスタントについて説明します。Experience Cloud の AI を使用して、製品知識を向上させ、運用上のインサイトを得ます。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 0e3839f829efc5670c235435d49ed5e49da2ed13
+source-git-commit: 19a251074e41ae4fcff38ce08a24580c0499d42c
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 63%
+source-wordcount: '83'
+ht-degree: 61%
 
 ---
 
@@ -28,4 +28,5 @@ ht-degree: 63%
    - [実験エージェント](./agents/agent-experiment.md)
    - [Journey Agent](./agents/ajo-agent.md)
    - [製品サポート担当者](./agents/product-support.md)
+   - [エージェントの使用制限トライアル](./agents/trial.md)
 
