@@ -23,7 +23,7 @@ ht-degree: 1%
 
 Adobeは、独自の判断で体験版の実施要件を決定します。 現在、または以前にAdobe Experience Platform Agent Orchestrator プロモーションライセンスまたはExperience Platform エージェント AI クレディットライセンスを持っているお客様は、体験版の対象ではありません。
 
-適格なお客様には、ジョブの組み合わせに対して使用できる AI クレジットが最大 10,000 回（Experience Cloud アプリケーションに対する既存のライセンスに応じて異なります）初めて付与されます。このクレジットは、[AI クレジット消費テーブル &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption) に記載されています。 Adobe Experience Platform UI のライセンス使用状況ダッシュボードを使用して、AI クレジットをトラッキングできます。 詳しくは、[&#x200B; ライセンス使用状況ダッシュボードのドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) を参照してください。
+適格なお客様には、ジョブの組み合わせに対して使用できる AI クレジットが最大 10,000 回（Experience Cloud アプリケーションに対する既存のライセンスに応じて異なります）初めて付与されます。このクレジットは、[AI クレジット消費テーブル &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption) に記載されています。 Adobe Experience Platform UI のライセンス使用状況ダッシュボードを使用して、AI クレジットをトラッキングできます。 詳しくは、[&#x200B; ライセンス使用状況ダッシュボードのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/dashboards/guides/license-usage) を参照してください。
 
 >[!IMPORTANT]
 >
@@ -69,7 +69,7 @@ Adobe Experience Platform Agents の使用制限トライアルでは、資格�
 
 ### 使用状況を確認できるユーザーとその方法
 
-Adobe Experience Platform UI のライセンス使用状況ダッシュボードを使用して、AI クレジットをトラッキングできます。 詳しくは、[&#x200B; ライセンス使用状況ダッシュボードのドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) を参照してください。
+Adobe Experience Platform UI のライセンス使用状況ダッシュボードを使用して、AI クレジットをトラッキングできます。 詳しくは、[&#x200B; ライセンス使用状況ダッシュボードのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/dashboards/guides/license-usage) を参照してください。
 
 ダッシュボードを使用して、AI クレジットの使用状況とレポートを表示します。 適切な権限を持つ管理者およびユーザーのみが、使用状況の情報を表示できます。
 
