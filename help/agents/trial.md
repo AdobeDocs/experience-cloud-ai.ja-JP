@@ -1,9 +1,9 @@
 ---
 title: Adobe Experience Platform Agents Usage-Bound Trial
 description: Adobe Experience Platform Agents の無料体験版について説明します。
-source-git-commit: a94ab9a30900e2d3a8db44994a1cb51a5f9361ff
+source-git-commit: 919abbc1a4919b46f6a9beec6f8e3dc71dc4edb7
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '1023'
 ht-degree: 1%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 1%
 
 ## 体験版で利用できるもの
 
-- **AI アシスタント**:Agent Orchestratorを活用したページ全体に対応する、没入感のある会話型インターフェイスで、複数の製品を横断して動作し、有効なExperience Cloud製品を使用している実務担当者が GenAI および Agentic AI 機能を活用できるようにします。 詳しくは、[AI アシスタント UI ガイド &#x200B;](../ai-assistant/ai-assistant-ui.md) を参照してください。
+- **AI アシスタント**:Agent Orchestratorを活用したページ全体に対応する、没入感のある会話型インターフェイスで、複数の製品を横断して動作し、有効なExperience Cloud製品を使用している実務担当者が GenAI および Agentic AI 機能を活用できるようにします。 詳しくは、[AI アシスタント UI ガイド ](../ai-assistant/ai-assistant-ui.md) を参照してください。
 - **Adobe Experience Platform エージェント**: カスタマーエクスペリエンス ドメインのカテゴリをまたいで共通のジョブを提供できる、特化した AI エージェント。 エージェントを活用すると、エクスペリエンスを迅速かつ大きな影響で作成および配信する処理能力を拡張し、次のレベルの生産性と効率を解き放つことができます。 各Experience Cloud アプリケーションで利用できるエージェントについては、[Experience Cloudの Agentic AI](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/agentic-ai) に関するドキュメントを参照してください。
 
 ## 体験版プログラムの詳細
 
 Adobeは、独自の判断で体験版の実施要件を決定します。 現在、または以前にAdobe Experience Platform Agent Orchestrator プロモーションライセンスまたはExperience Platform エージェント AI クレディットライセンスを持っているお客様は、体験版の対象ではありません。
 
-適格なお客様には、ジョブの組み合わせに対して使用できる AI クレジットが最大 10,000 回（Experience Cloud アプリケーションに対する既存のライセンスに応じて異なります）初めて付与されます。このクレジットは、[AI クレジット消費テーブル &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption) に記載されています。 Adobe Experience Platform UI のライセンス使用状況ダッシュボードを使用して、AI クレジットをトラッキングできます。 詳しくは、[&#x200B; ライセンス使用状況ダッシュボードのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/dashboards/guides/license-usage) を参照してください。
+適格なお客様には、ジョブの組み合わせに対して使用できる AI クレジットが最大 10,000 回（Experience Cloud アプリケーションに対する既存のライセンスに応じて異なります）初めて付与されます。このクレジットは、[AI クレジット消費テーブル ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption) に記載されています。 Adobe Experience Platform UI のライセンス使用状況ダッシュボードを使用して、AI クレジットをトラッキングできます。 詳しくは、[ ライセンス使用状況ダッシュボードのドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) を参照してください。
 
 >[!IMPORTANT]
 >
@@ -35,13 +35,57 @@ Adobeは、独自の判断で体験版の実施要件を決定します。 現�
 
 対象となるお客様のユーザーは、体験版の一部として AI アシスタントとエージェントにアクセスできるので、アクションは必要ありません。 Experience Platform エージェントは、ユーザー入力と監視によって導かれます。 また、エージェントは、以前に定義された商品レベルのアクセス制御に従うので、該当する基盤となるExperience Cloud製品内で権限を持っているジョブのみを実行したり、アクションを実行したりできます。 これらの Agentic 機能へのアクセスをオプトアウトして体験版アクセスを無効にする場合は、[aep-agents-trial-support@adobe.com](mailto:aep-agents-trial-support@adobe.com) にリクエストを送信してください。
 
-アクセス権を取得したら、Adobe Experience Cloud ホームページに移動して、AI アシスタントの使用を開始します。 [&#x200B; 検出プロンプト &#x200B;](../ai-assistant/ai-assistant-ui.md#discovery-prompts) を使用して、プロンプトおよび一般的なワークフローの候補を表示できます。 この機能を使用すると、AI アシスタントを使用したオンボーディングを高速化できます。 また、別のエージェントで使用できる様々なプロンプトについては、[&#x200B; プロンプトライブラリ &#x200B;](../ai-assistant/prompt-library.md) を参照してください。 より包括的な情報については、[AI アシスタント UI ガイド &#x200B;](../ai-assistant/ai-assistant-ui.md) を参照してください。
+アクセス権を取得したら、Adobe Experience Cloud ホームページに移動して、AI アシスタントの使用を開始します。 [ 検出プロンプト ](../ai-assistant/ai-assistant-ui.md#discovery-prompts) を使用して、プロンプトおよび一般的なワークフローの候補を表示できます。 この機能を使用すると、AI アシスタントを使用したオンボーディングを高速化できます。 また、別のエージェントで使用できる様々なプロンプトについては、[ プロンプトライブラリ ](../ai-assistant/prompt-library.md) を参照してください。 より包括的な情報については、[AI アシスタント UI ガイド ](../ai-assistant/ai-assistant-ui.md) を参照してください。
 
-使用可能なエージェントについては、[Agent Orchestratorの概要 &#x200B;](agent-orchestrator.md) を参照してください。
+使用可能なエージェントについては、[Agent Orchestratorの概要 ](agent-orchestrator.md) を参照してください。
 
 >[!TIP]
 >
 >お問い合わせ – [aep-agents-trial-support@adobe.com](mailto:aep-agents-trial-support@adobe.com) にリクエストを送信してください。
+
+## よくある質問 {#faq}
+
+Experience Platform Agents の使用制限トライアルに関するよくある質問への回答については、以下をお読みください。
+
+### Adobe Experience Platform Agents の使用制限トライアルとは何ですか？
+
+Adobe Experience Platform Agents の使用制限トライアルでは、資格のあるお客様は、最大 10,000 AI クレジットまで、追加費用なしで特定のエージェントを使用できます。 目標は、顧客が商業的な決定を下す前に、これらのエージェントから価値を体験するための低フリクションで低リスクの道を提供することです。
+
+### この試験に含まれるエージェントはどれですか？
+
+試験に含まれるエージェントの完全なリストについては、[Experience Cloudにおける Agentic AI](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/agentic-ai) に関するガイドを参照してください。
+
+### 誰がこの体験版に参加できますか？
+
+この体験版は、Adobe Experience Cloudの特定の適格なお客様に段階的に公開され、Adobeが適切なサポートを提供できるようにします。 参加をご希望の場合は、Adobe アカウントチームにお問い合わせください。アカウントチームは、ステータスを確認し、アクセスのオプションについて話し合うことができます。
+
+### AI クレジットはどれくらい取得されますか？また、これらの AI クレジットが使用されるとどうなりますか？
+
+対象となるお客様は、体験版で最大 10,000 の AI クレジットを受け取ります。このクレジットは、エージェントがジョブを実行する際に使用されます。 これらの AI クレジットは、体験版の期間中にのみ存在し、10,000 件の AI クレジットをすべて使用する前に追加の AI クレジットのライセンスを取得した場合は、ロールオーバーされないことに注意してください。 AI クレジット消費について詳しくは、[ エージェントジョブと AI クレジット消費ガイド ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption) を参照してください。
+
+### これは高いですか。
+
+体験版では、追加購入は必要ありません。 有料オファーへの自動コンバージョンはありません。 試用期間を過ぎても引き続きエージェントを使用する場合は、Adobe アカウントチームがお客様と協力して有料サービスに移行します。
+
+### 使用状況を確認できるユーザーとその方法
+
+Adobe Experience Platform UI のライセンス使用状況ダッシュボードを使用して、AI クレジットをトラッキングできます。 詳しくは、[ ライセンス使用状況ダッシュボードのドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) を参照してください。
+
+ダッシュボードを使用して、AI クレジットの使用状況とレポートを表示します。 適切な権限を持つ管理者およびユーザーのみが、使用状況の情報を表示できます。
+
+### 体験版が終了した後はどうなりますか。
+
+体験版は、最大 10,000 個の AI クレジットの初期の 1 回限りの使用権を消費するか、追加の AI クレジットのライセンスを取得すると終了します。
+
+体験版が終了したら、次の操作を選択できます。
+
+- 前に進まない
+   - これにより、体験版の有効期限が切れます
+   - 既存のAdobe製品は引き続き以前と同じように機能しますが、体験版をコンバージョンしなかった場合はペナルティはありません
+- 引き続きエージェントを使用して進める
+   - Adobe アカウントチームと協力して、有料オファーに移行できます。
+
+体験版が有料に終了した顧客をコンバージョンするための自動非表示スイッチはありません。
 
 ## その他のリソース
 
