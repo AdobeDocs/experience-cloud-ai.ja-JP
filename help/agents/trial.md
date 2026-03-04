@@ -16,7 +16,7 @@ ht-degree: 1%
 
 次のビデオは、Adobe Experience Platform Agents 体験版について理解を深めるためのものです。
 
->[!VIDEO](https://video.tv.adobe.com/v/3480228?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3480229?captions=jpn&learn=on)
 
 ## 体験版で利用できるもの
 
