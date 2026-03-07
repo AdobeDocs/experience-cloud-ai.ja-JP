@@ -27,7 +27,7 @@ ht-degree: 1%
 
 Adobeは、独自の判断で体験版の実施要件を決定します。 現在、または以前にAdobe Experience Platform Agent Orchestrator プロモーションライセンスまたはExperience Platform エージェント AI クレディットライセンスを持っているお客様は、体験版の対象ではありません。
 
-適格なお客様には、ジョブの組み合わせに対して使用できる AI クレジットが最大 10,000 回（Experience Cloud アプリケーションに対する既存のライセンスに応じて異なります）初めて付与されます。このクレジットは、[AI クレジット消費テーブル &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption) に記載されています。 Adobe Experience Platform UI のライセンス使用状況ダッシュボードを使用して、AI クレジットをトラッキングできます。 詳しくは、[&#x200B; ライセンス使用状況ダッシュボードのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/dashboards/guides/license-usage) を参照してください。
+適格なお客様には、ジョブの組み合わせに対して使用できる AI クレジットが最大 10,000 回（Experience Cloud アプリケーションに対する既存のライセンスに応じて異なります）初めて付与されます。このクレジットは、[AI クレジット消費テーブル &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/ai-credit-consumption) に記載されています。 Adobe Experience Platform UI のライセンス使用状況ダッシュボードを使用して、AI クレジットをトラッキングできます。 詳しくは、[&#x200B; ライセンス使用状況ダッシュボードのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/dashboards/guides/license-usage) を参照してください。
 
 >[!IMPORTANT]
 >
@@ -65,7 +65,7 @@ Adobe Experience Platform エージェント体験版を使用すると、資格
 
 ### AI クレジットはどれくらい取得されますか？また、これらの AI クレジットが使用されるとどうなりますか？
 
-対象となるお客様は、体験版で最大 10,000 の AI クレジットを受け取ります。このクレジットは、エージェントがジョブを実行する際に使用されます。 これらの AI クレジットは、体験版の期間中にのみ存在し、10,000 件の AI クレジットをすべて使用する前に追加の AI クレジットのライセンスを取得した場合は、ロールオーバーされないことに注意してください。 AI クレジット消費について詳しくは、[&#x200B; エージェントジョブと AI クレジット消費ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption) を参照してください。
+対象となるお客様は、体験版で最大 10,000 の AI クレジットを受け取ります。このクレジットは、エージェントがジョブを実行する際に使用されます。 これらの AI クレジットは、体験版の期間中にのみ存在し、10,000 件の AI クレジットをすべて使用する前に追加の AI クレジットのライセンスを取得した場合は、ロールオーバーされないことに注意してください。 AI クレジット消費について詳しくは、[&#x200B; エージェントジョブと AI クレジット消費ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/ai-credit-consumption) を参照してください。
 
 ### これは高いですか。
 
