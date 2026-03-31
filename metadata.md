@@ -2,21 +2,23 @@
 cloud: Experience Cloud
 solution: Experience Cloud,Experience Platform,Real-Time Customer Data Platform
 product: experience cloud
+landing-page-name: AI
+landing-page-breadcrumb-title: AI Documentation
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/experience-cloud-ai.ja-JP
+git-repo: https://github.com/AdobeDocs/experience-cloud-ai.en
 index: true
-source-git-commit: 00bb5af3650dc661da5f007b2062ea2a496a3082
+source-git-commit: dae54c19020a07c35fcda244a31bbbee1c4aafc9
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 98%
+source-wordcount: '70'
+ht-degree: 0%
 
 ---
 
 
-# 社内用のメタデータ
+# 内部使用のためのメタデータ
 
-metadata.md ファイルには、リポジトリー内にあるユーザーガイドの TOC.md ファイルにパススルーされる、リポジトリーレベルのメタデータが含まれています。任意のユーザーガイドの metadata.md コンテンツを変更したい場合は、任意の TOC.md ファイル内で行います。
+metadata.md ファイルには、リポジトリ内のユーザーガイド TOC.md ファイルに渡されるリポジトレベルのメタデータが含まれています。 任意のユーザーガイドのmetadata.md コンテンツを変更する場合は、任意のTOC.md ファイルで変更します。
 
-**解決策**、**製品**、**タイプ**&#x200B;の有効な値のリストについては、[メタデータ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=ja)を参照してください。
+**solution**、**product**、**type**&#x200B;の有効な値のリストについては、[ メタデータ ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html)を参照してください。
 

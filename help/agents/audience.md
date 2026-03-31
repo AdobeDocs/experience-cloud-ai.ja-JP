@@ -1,9 +1,9 @@
 ---
 title: Audience Agent
-description: Audience Agentを使用して、オーディエンスの作成、オーディエンスの変更の表示、重複するオーディエンスの検出、オーディエンスインサイトの表示をおこなう方法について説明します。
-source-git-commit: effd4fe4123953b6af375dfb46fcc669b2e35df1
+description: Audience Agentを使用して、オーディエンスの作成、オーディエンスの変更の表示、重複オーディエンスの検出、オーディエンスインサイトの表示を行う方法について説明します。
+source-git-commit: ec03f46b5d80558b683f6cd4330f51258b7378a1
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1242'
 ht-degree: 2%
 
 ---
@@ -13,104 +13,106 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->Audience Agentは、AI アシスタントにアクセスできるすべてのお客様が利用できます。 ただし、Audience Agentの機能を完全に使用するには、次の権限が必要になります。
+>Audience Agentは、AI アシスタントにアクセスできるすべてのお客様が利用できます。 ただし、Audience Agent機能を完全に使用するには、次の権限が必要です。
 >
->**セグメントの表示**：この権限を持つユーザーは、Audience Agentを使用して AI アシスタントで直接オーディエンスに関するインサイトを表示できます。
+>**セグメントを表示**：この権限を持つユーザーは、Audience Agentを使用して、AI アシスタントで直接オーディエンスに関するインサイトを表示できます。
 >
->**セグメントの管理**：権限があれば、Audience Agentを使用して AI アシスタントで新しいオーディエンスを直接作成できます。
+>**セグメントの管理**：権限を付与するには、Audience Agentを使用して、AI アシスタントで直接、新しいオーディエンスを作成できます。
 
-Audience Agentを使用すると、オーディエンスサイズの大きな変化の検出、重複オーディエンスの検出、オーディエンスインベントリの調査、オーディエンスのサイズの取得など、オーディエンスに関するインサイトを表示できます。
+Audience Agentでは、大幅なオーディエンスサイズの変更の検出、重複するオーディエンスの検出、オーディエンスインベントリの調査、オーディエンスのサイズの取得など、オーディエンスに関するインサイトを表示できます。
 
 >[!SLIDE](audience-agent-overview)
 
 ## サポートされるユースケース
 
-AI アシスタント内のAudience Agentは、次のユースケースをサポートします。
+AI アシスタント内のAudience Agentは、次のユースケースをサポートしています。
 
-- 対話型でオーディエンスを探索
-   - 既存オーディエンスのオーディエンスサイズの検索
-   - という名前の完全または部分的な属性に基づいてオーディエンスを検索
-   - 重複するオーディエンスの検出
-   - オーディエンスの定義に使用できる XDM フィールドを見つける
-- オーディエンスサイズの大きな変化を検出
-   - これにより、急激に増加または縮小したオーディエンスを見つけることができ、潜在的な市場変化をより詳細に分析できます
+- 会話形式でオーディエンスを探索
+   - 既存オーディエンスのオーディエンスサイズの特定
+   - 次の名前の完全または部分的な属性に基づいてオーディエンスを検索します
+   - 重複オーディエンスの検出
+   - オーディエンスの定義に使用できるXDM フィールドの詳細
+- オーディエンスサイズの大幅な変化を検出
+   - これにより、急激に増加または減少したオーディエンスを発見することができ、潜在的な市場の変化をより適切に分析することができます
 - オーディエンスの作成
    - このスキルでは、指定された属性とイベントに基づいてオーディエンスを作成できます
-   - また、このスキルを使用すると、オーディエンスを作成する前にオーディエンスの潜在的なサイズを見積もることができ、アクティブ化の準備が整う前に、最も効果的なオーディエンスに対してすばやく繰り返し処理できます
+   - さらに、このスキルでは、オーディエンスを構築する前にオーディエンスの潜在的な規模を推定し、最も効果的なオーディエンスをアクティベーションする前に迅速に反復することができます
 
-<!-- - Find your audience size and detect significant changes in audience size
+<!--
+  - Find your audience size and detect significant changes in audience size
   - This lets you find audiences that have suddenly grown or shrunk, letting you better analyze potential market changes
 - Detect duplicate audiences
   - This lets you reduce redundancies with your created audiences
 - Find audiences based on full or partial attributes named
   - This lets you more easily navigate through your audience inventory
 - Discover XDM fields you can use to define an audience
-  - This skill lets you more easily identify the right fields to use in your audience based on context and relevance -->
+  - This skill lets you more easily identify the right fields to use in your audience based on context and relevance 
+-->
 
-Audience Agentは **現在** 次の機能をサポートしていません。
+Audience Agentでは、現在&#x200B;**次の機能はサポートされていません。**
 
 - 目標ベースのオーディエンス探索
-   - 目標ベースのオーディエンス探索を使用すると、購入や変換の傾向などの機械学習モデルを適用することで、ビジネス目標に合致した関連データセットとプロファイルを見つけることができます。
+   - 目標に基づくオーディエンスの探索により、購買傾向やコンバージョン傾向などのマシンラーニングモデルを適用することで、ビジネス目標に即した関連データセットやプロファイルを発見できます。
 
-さらに、Audience Agentを使用する際は、次の制限事項に注意する必要があります。
+さらに、Audience Agentを使用する場合は、次の制約を考慮する必要があります。
 
-- Audience Agentによるデータの処理には少なくとも 24 時間かかります
-   - 例えば、過去 24 時間以内のデータを検索するクエリを作成する **できません**。 少なくとも過去 48 時間以内に確認する必要があります。
-- Audience Agentでは、次のオーディエンスタイプのみをサポートしています。
-   - バッチセグメント化を使用して評価される **People ベース** オーディエンス
-   - **アカウントベース** のオーディエンス。次のユースケースに対応：
+- Audience Agentでデータを処理するには、少なくとも24時間が必要です
+   - 例えば、**では、過去24時間以内にデータを検索するクエリを**&#x200B;できません。 最低でも過去48時間以内に確認する必要があります。
+- Audience Agentでは、次のオーディエンスタイプのみがサポートされます。
+   - バッチセグメント化を使用して評価される&#x200B;**人物ベースの** オーディエンス
+   - 次の使用例の&#x200B;**アカウントベース**&#x200B;のオーディエンス：
       - 会話型オーディエンスの探索
-      - 重複オーディエンスの検出
+      - 重複オーディエンス検出
 
 ## サンプルプロンプト
 
-次の例は、Audience Agentのサンプルプロンプトと応答を示しています。
+次の例は、Audience Agentのプロンプトと応答の例です。
 
 ### 会話型オーディエンスの探索
 
-裕福な買い手のフィールドを表示する
+富裕層の購入者向けのフィールドを表示する。
 
 +++ 応答
 
-![AI アシスタントは、裕福な購入者に関連するフィールドを示すテーブルを表示します。](./images/audience/affluent-buyers.png)
+![AI アシスタントに、裕福な購入者に関連するフィールドを表示するテーブルが表示されます。](./images/audience/affluent-buyers.png)
 
 +++
 
-過去 30 日間にどのキャンペーンでもアクティブ化または使用されていないオーディエンスはどれですか？
+過去30日間にキャンペーンでアクティブ化または使用されていないオーディエンスは？
 
 +++ 応答
 
-![AI アシスタントには、過去 30 日間にキャンペーンでアクティブ化または使用されていないオーディエンスを表示するテーブルが表示されます。](./images/audience/not-activated.png)
+![AI アシスタントには、過去30日間にキャンペーンでアクティブ化または使用されていないオーディエンスを表示するテーブルが表示されます。](./images/audience/not-activated.png)
 
 +++
 
-過去 3 か月以内に新しい宛先にマッピングされたオーディエンスをすべてリストします。
+過去3か月間に新しい宛先にマッピングされたすべてのオーディエンスを一覧表示します。
 
 +++ 応答
 
-![AI アシスタントには、過去 3 か月以内に新しい宛先にマッピングされたオーディエンスのリストが表示されます。](./images/audience/new-destination.png)
+![AI アシスタントには、過去3か月間に新しい宛先にマッピングされた1人のオーディエンスが一覧表示されます。](./images/audience/new-destination.png)
 
 +++
 
-最大のオーディエンスサイズを持つアカウントオーディエンスとそのサイズはどれですか？
+オーディエンスサイズが最も大きいアカウントオーディエンスとそのサイズは何ですか？
 
 +++ 応答
 
-![AI アシスタントが、最大のアカウントオーディエンスを表示するテーブルを表示します。](./images/audience/largest-account-audience.png)
+![AI アシスタントに、最大のアカウントオーディエンスを表示するテーブルが表示されます。](./images/audience/largest-account-audience.png)
 
 +++
 
-### 重複するオーディエンスの検出
+### 重複オーディエンスの検出
 
-説明が同じまたは類似したオーディエンスはありますか？
+同じまたは類似の説明を持つオーディエンスはありますか？
 
 +++ 応答
 
-![AI アシスタントによって、セグメント定義と、同じセグメント定義を持つオーディエンスの名前を含むテーブルが表示されます。](./images/audience/similar-descriptions.png)
+![AI アシスタントは、セグメント定義と、同じセグメント定義を持つオーディエンスの名前を含むテーブルを表示します。](./images/audience/similar-descriptions.png)
 
 +++
 
-ルールは同じでも、名前が異なるオーディエンスを特定します。
+同じルールを持ちながら、名前が異なるオーディエンスを特定できます。
 
 +++ 応答
 
@@ -118,25 +120,25 @@ Audience Agentは **現在** 次の機能をサポートしていません。
 
 +++
 
-ルールは同じでも、アクティブ化の宛先が異なるすべてのオーディエンスを表示します。
+同じルールを持つが異なるアクティベーション宛先を持つオーディエンスをすべて表示します。
 
 +++ 応答
 
-![AI アシスタントは、異なる宛先への重複したセグメント定義がないことを示します。](./images/audience/same-rules-different-destinations.png)
+![AI アシスタントは、異なる宛先に対するセグメント定義が重複していないことを示します。](./images/audience/same-rules-different-destinations.png)
 
 +++
 
-ルールは同じでも、名前が異なるアカウントオーディエンスを特定します。
+同じルールを持ちながら、名前が異なるアカウントオーディエンスを特定します。
 
 +++ 応答
 
-![AI アシスタントにより、同じオーディエンスルールを共有するアカウントオーディエンスの名前と ID を含むテーブルが表示されます。](./images/audience/duplicate-account-audience.png)
+![AI アシスタントは、同じオーディエンスルールを共有するアカウントオーディエンスの名前とIDを含むテーブルを表示します。](./images/audience/duplicate-account-audience.png)
 
 +++
 
 ### オーディエンスサイズの取得
 
-オーディエンス「Gold-star Members in California_f153e1」の現在のサイズを教えてください。
+オーディエンス「California_f153e1のゴールドスター会員」の現在のサイズはどのくらいですか？
 
 +++ 応答
 
@@ -144,37 +146,37 @@ Audience Agentは **現在** 次の機能をサポートしていません。
 
 +++
 
-私の最も多い聴衆は何ですか？
+最大のオーディエンスは何か？
 
 +++ 応答
 
-![AI アシスタントは、名前やオーディエンス ID など、プロファイルが最も多いオーディエンスに関する情報を提供します。](./images/audience/largest-audience.png)
+![AI アシスタントは、名前とオーディエンス IDを含む、最も多くのプロファイルを持つオーディエンスに関する情報を提供します。](./images/audience/largest-audience.png)
 
 +++
 
-### オーディエンスサイズの大きな変化を検出
+### オーディエンスサイズの大幅な変化を検出
 
-先週、サイズが 20% 以上増加したオーディエンスはどれですか？
+先週20%以上増加したオーディエンスはどれですか？
 
 +++ 応答
 
-![AI アシスタントには、クエリに一致するすべてのオーディエンスの名前をリストしたテーブルが表示されます。 また、増加率、現在のオーディエンスサイズおよび以前のオーディエンスサイズも表示されます。](./images/audience/increase-past-week.png)
+![AI アシスタントは、クエリに一致するすべてのオーディエンスの名前を一覧表示するテーブルを表示します。 また、増加率、現在のオーディエンスサイズ、および以前のオーディエンスサイズも表示されます。](./images/audience/increase-past-week.png)
 
 +++
 
-先月サイズが 10% 以上減少したオーディエンスはどれですか？
+先月10%以上減少したオーディエンスはどれですか？
 
 +++ 応答
 
-![AI アシスタントには、クエリに一致するすべてのオーディエンスの名前をリストしたテーブルが表示されます。 また、現在のオーディエンスサイズ、以前のオーディエンスサイズおよび古いオーディエンスサイズの日付も表示されます。](./images/audience/decrease-month.png)
+![AI アシスタントは、クエリに一致するすべてのオーディエンスの名前を一覧表示するテーブルを表示します。 現在のオーディエンスサイズ、以前のオーディエンスサイズ、および古いオーディエンスサイズの日付も表示されます。](./images/audience/decrease-month.png)
 
 +++
 
-最も急速に成長しているオーディエンスは何ですか？
+「最も急成長しているオーディエンスは何か？」
 
 +++ 応答
 
-![AI アシスタントは、最も急速に成長しているオーディエンスの名前、現在のサイズおよび成長率を示します。](./images/audience/fastest-growing.png)
+![AI アシスタントは、最も急速に成長しているオーディエンスの名前と、現在のサイズと成長の割合を示します。](./images/audience/fastest-growing.png)
 
 +++
 
@@ -182,81 +184,81 @@ Audience Agentは **現在** 次の機能をサポートしていません。
 
 >[!AVAILABILITY]
 >
->オーディエンスを作成スキルを使用できるのは、Agent Orchestrator エクスプローラープログラムに参加している場合のみです。 詳しくは、Adobe カスタマーケアにお問い合わせください。
+>Agent Orchestrator エクスプローラープログラムの一部である場合にのみ、オーディエンスを作成スキルを使用できます。 詳しくは、Adobe カスタマーケアにお問い合わせください。
 
-Audience Agentでオーディエンスを作成する場合、AI アシスタントがプランのガイドとなります。 例えば、「カリフォルニアに住む人々で構成されるオーディエンスを作成」するように依頼できます。 次に、AI アシスタントが、オーディエンスの作成に取り組む計画のリストを示します。
+Audience Agentでオーディエンスを構築する場合、AI アシスタントがプランを案内します。 例えば、「カリフォルニア在住の人で構成されるオーディエンスを作成する」と依頼できます。 次に、AI Assistantは、オーディエンスの作成に着手する計画をリストします。
 
 +++ 応答
 
-![AI アシスタントは、オーディエンスを作成する計画を示します。](./images/audience/audience-create-plan.png)
+![AI アシスタントは、オーディエンスを作成する計画を表示します。](./images/audience/audience-create-plan.png)
 
 +++
 
-このプランは、次の 3 つの手順で構成されます。
+この計画は、次の3つのステップで構成されています。
 
-1. [オーディエンスの特性の特定](#identify)
+1. [オーディエンス特性の特定](#identify)
 2. [オーディエンスサイズの推定](#estimate)
-3. [新しいオーディエンスの作成と永続化](#create)
+3. [新しいオーディエンスの作成と維持](#create)
 
-#### オーディエンスの特性の特定 {#identify}
+#### オーディエンス特性の特定 {#identify}
 
-![&#x200B; プランのステップ 1：オーディエンスの特性を特定する &#x200B;](./images/audience/plan-step-1.png){align="center" width="80%"}
+![ オーディエンスの特徴を特定するための計画の手順1。](./images/audience/plan-step-1.png){align="center" width="80%"}
 
-計画を承認すると、AI アシスタントは最初のクエリに基づいてオーディエンスの特性を取得します。
+プランを承認すると、AI アシスタントは、最初のクエリにもとづいてオーディエンスの特徴を取得します。
 
 +++ 応答
 
-![&#x200B; ユーザークエリに基づくオーディエンス定義。](./images/audience/audience-create-definition.png)
+![ ユーザークエリに基づくオーディエンス定義。](./images/audience/audience-create-definition.png)
 
-このクエリでは、AI アシスタントがカリフォルニア州に住むユーザーを検索する関連するProfile Query Language（PQL）を生成します。 このユースケースでは、PQL クエリは次のようになります。
+このクエリでは、AI Assistantがカリフォルニア州に住む人物を探す関連するProfile Query Language（PQL）を生成します。 このユースケースでは、PQL クエリは次のようになります。
 
 ```sql
 homeAddress.state.equals("California", false)
 ```
 
-PQLについて詳しくは、[PQLの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/pql/overview) を参照してください。
+PQLについて詳しくは、[PQLの概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)を参照してください。
 
 +++
 
-AI アシスタントのオーディエンス定義が正しい場合は、承認して次の手順に進むことができます。
+AI アシスタントのオーディエンス定義が正しい場合は、承認して次のステップに進むことができます。
 
 #### オーディエンスサイズの推定 {#estimate}
 
-![&#x200B; 計画のステップ 2：潜在的なオーディエンスのサイズを推定します。](./images/audience/plan-step-2.png){align="center" width="80%"}
+![潜在的なオーディエンスのサイズを見積もるプランの手順2。](./images/audience/plan-step-2.png){align="center" width="80%"}
 
-識別されたオーディエンス特性を承認した後、AI アシスタントは潜在的なオーディエンスのサイズとオーディエンス定義の詳細を見積もります。
-
-+++ 応答
-
-![&#x200B; 潜在的なオーディエンスのサンプル推定が表示されます。 推定サイズとセグメント定義が表示されます。](./images/audience/audience-create-estimate.png)
-
-+++
-
-推定サイズが正しいと思われる場合は、承認して次の手順に進むことができます。
-
-#### 新しいオーディエンスの作成と永続化 {#create}
-
-![&#x200B; オーディエンスの作成を完了する計画の手順 3。](./images/audience/plan-step-3.png){align="center" width="80%"}
-
-最後に、特性とオーディエンスサイズが正しければ、オーディエンスの作成を承認または却下できます。
+特定されたオーディエンスの特性を承認すると、AI アシスタントは、潜在的なオーディエンスのサイズとオーディエンス定義の詳細を推定します。
 
 +++ 応答
 
-まず、提供されたデータグリッドを使用して、提案されたオーディエンスを確認できます。
-
-![&#x200B; レビュー画面が表示されます。](./images/audience/audience-create-review.png)
-
-オーディエンスが正しいと思われる場合は、「**[!UICONTROL 作成]**」を選択して提案を承認し、オーディエンスの作成を完了できます。
-
-![&#x200B; オーディエンスの完全な提案が表示されます。](./images/audience/audience-create-proposal.png)
+![潜在的なオーディエンスのサンプル推定値が表示されます。 推定サイズとセグメント定義が表示されます。](./images/audience/audience-create-estimate.png)
 
 +++
 
-これで、オーディエンスが作成されました。
+見積もりが正しく見える場合は、承認して次のステップに進むことができます。
 
-![&#x200B; オーディエンスの提案が承認され、オーディエンスが作成されました。](./images/audience/audience-finish-create.png){align="center" width="80%"}
+#### 新しいオーディエンスの作成と維持 {#create}
+
+![ オーディエンスの作成を完了するプランの手順3。](./images/audience/plan-step-3.png){align="center" width="80%"}
+
+最後に、オーディエンスの特徴とサイズが正しく見える場合は、オーディエンスの作成を承認または却下できます。
+
++++ 応答
+
+まず、提供されたデータグリッドを通じて、提案されたオーディエンスを確認できます。
+
+![ レビュー画面が表示されます。](./images/audience/audience-create-review.png)
+
+オーディエンスが正しく見える場合は、**[!UICONTROL 作成]**&#x200B;を選択して提案を承認し、オーディエンスの作成を完了できます。
+
+![ オーディエンスに対する完全な提案が表示されます。](./images/audience/audience-create-proposal.png)
+
++++
+
+これでオーディエンスが作成されました。
+
+![ オーディエンスの提案が承認され、オーディエンスが作成されました。](./images/audience/audience-finish-create.png){align="center" width="80%"}
 
 ## 次の手順
 
-このガイドを読むことで、Audience Agentとそのサポートする機能について、理解を深めることができました。 Adobe Experience Platformのエージェントについて詳しくは、[Agent Orchestratorの概要 &#x200B;](./agent-orchestrator.md) を参照してください。
+このガイドを読めば、Audience Agentとそのサポートする機能について理解を深めることができます。 Adobe Experience Platformのエージェントについて詳しくは、[Agent Orchestratorの概要](./agent-orchestrator.md)を参照してください。
 
