@@ -1,10 +1,10 @@
 ---
 title: Adobe Experience Platform Agent Orchestrator
 description: Adobe Experience Platform Agent Orchestrator について説明します。
-source-git-commit: c3cb327bb7625ee81f784a1fad740b7b4cbdfb71
+source-git-commit: bb199c84259f65487e3aafa5ae1e62e09f82829c
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 11%
+source-wordcount: '966'
+ht-degree: 10%
 
 ---
 
@@ -51,6 +51,14 @@ Experience Cloud アプリケーションでのAgentsの利用について詳し
 ### ナレッジベース {#knowledge-base}
 
 ナレッジベースでは、Adobeの製品ドキュメント、ビジネスオブジェクトに関する顧客メタデータ、分析データなどの構造化および非構造化データソースを通じて、担当者は顧客ビジネスインテリジェンスに安全にアクセスできます。
+
+## エコシステム {#ecosystem}
+
+Agent Orchestratorのエコシステムには、次のエージェントが含まれます。
+
+| エージェント | 詳細 |
+| --- | --- |
+| [Adobe Marketing Agent for Microsoft 365 Copilot](ama-ms.md) | [!DNL Microsoft 365 Copilot]のAdobe Marketing Agentを使用して、[!DNL Teams]、[!DNL Word]、[!DNL Powerpoint]、[!DNL Excel]などの[!DNL Microsoft 365] アプリでExperience Platformからマーケティングインサイトを取得します。 このエージェントを使用すると、次のことが可能になります。 <ul><li>より迅速なデータドリブン型マーケティングに取り組む。</li><li>ツール間の切り替えに費やす時間を削減します。</li><li>部門をまたいでオーディエンスとジャーニーのインサイトへのアクセスを簡素化する。</li></ul> |
 
 ## アクセス {#access}
 
