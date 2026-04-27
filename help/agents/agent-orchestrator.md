@@ -1,10 +1,25 @@
 ---
 title: Adobe Experience Platform Agent Orchestrator
 description: Adobe Experience Platform Agent Orchestrator について説明します。
-source-git-commit: bb199c84259f65487e3aafa5ae1e62e09f82829c
+TQID: https://experienceleague.adobe.com/xv7K7636d65K0V8R1EG97xnZpZAjnNhfF7JgqQz1aoY
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 10%
+source-wordcount: 966
+ht-degree: 11%
 
 ---
 
@@ -44,7 +59,7 @@ Adobe Experience Platform Agentsは、顧客体験の領域をまたいで共通
 | [Data Insights Agent](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Data Insights Agentは、Customer Journey AnalyticsのAI アシスタントからアクセス可能な生成AI会話型エージェントで、データに関する疑問に迅速かつ効率的に回答します。 データビューのコンポーネントと実際のデータを使用して、Analysis Workspace で関連するビジュアライゼーションを作成します。 | Customer Journey Analytics |
 | [Experimentation Agent](./agent-experiment.md) | Experimentation Agentは、実験結果の分析、影響の予測、新しい実験の提案などにより、より迅速な学習を支援します。 過去と現在のテストを一元管理することで、すでに学んだことを基に構築し、ギャップを発見し、次にテストすべきことを優先することができます。 | Adobe Journey Optimizer Experimentation Accelerator |
 | [Journey Agent](./ajo-agent.md) | Journey Agentなら、自然言語のインターフェイスを利用して、カスタマージャーニーを構築、分析、最適化できます。 Journey Agentなら、ジャーニーの迅速な構築、スケジュールやオーディエンスの競合の検出と解決、パフォーマンスと離脱ポイントの分析などを実現し、今後のキャンペーンに向けて再現する最もパフォーマンスの高いジャーニーを特定できます。 データにもとづく意思決定、顧客エンゲージメントの向上、ジャーニーオーケストレーションの合理化に役立ちます。 | Adobe Journey Optimizer |
-| [製品サポートエージェント &#x200B;](product-support.md) | Product Support Agentは、セルフサービス型のデバッグおよびトラブルシューティング機能で、ワークフローから離れることなくAdobe Experience Platformの機能とアプリケーションをトラブルシューティングするのに役立ちます。 サポート管理者は、AI アシスタントとのやり取りのコンテキストからカスタマーサポートチケットを作成でき、AI アシスタントを通じてチケットの更新を確認することができます。 | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
+| [製品サポートエージェント &#x200B;](product-support.md) | Product Support Agentは、セルフサービス型のデバッグおよびトラブルシューティング機能で、ワークフローから離れることなくAdobe Experience Platformの機能とアプリケーションをトラブルシューティングするのに役立ちます。 サポート管理者は、AI アシスタントとのやり取りのコンテキストからカスタマーサポートチケットを作成でき、AI アシスタントを通じてチケットの更新を確認することができます。 | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B Edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
 
 Experience Cloud アプリケーションでのAgentsの利用について詳しくは、[Experience Cloud ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/agentic-ai)のAgentic AIを参照してください。
 
