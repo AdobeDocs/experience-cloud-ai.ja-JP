@@ -1,7 +1,6 @@
 ---
 title: 製品サポート担当者
 description: AI アシスタントの製品サポートエージェントを使用して、トラブルシューティングとカスタマーサポートチケットの申請プロセスを効率化する方法について学びます。
-TQID: https://experienceleague.adobe.com/SKcxvhwgLhbCjQ---MdK7JzOKF4EzJra3mZjNhpwZ-o
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 role_v2:
@@ -12,7 +11,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
+source-git-commit: b2afc6a3f389790d7af2d4ba29a4362b28432a28
 workflow-type: tm+mt
 source-wordcount: 365
 ht-degree: 100%
@@ -20,6 +19,10 @@ ht-degree: 100%
 ---
 
 # 製品サポート担当者
+
+<!--
+TQID: https://experienceleague.adobe.com/SKcxvhwgLhbCjQ---MdK7JzOKF4EzJra3mZjNhpwZ-o
+-->
 
 製品サポートエージェントは、Adobe Experience Platformの機能と用途に使用できる、AI アシスタントのセルフサービスデバッグおよびトラブルシューティング機能です。
 
