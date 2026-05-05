@@ -29,14 +29,19 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
+source-git-commit: d209365776b2467f5230fa2cc9a3a4534eb57328
 workflow-type: tm+mt
-source-wordcount: 2655
-ht-degree: 15%
+source-wordcount: 2687
+ht-degree: 14%
 
 ---
 
+
 # Journey Agent：概要とユーザーガイド
+
+>[!AVAILABILITY]
+>
+>Journey Agentのクリエイティブスキルとコンテンツ生成スキルは、Agent Orchestrator Explorer プログラムの一部であるお客様が利用できます。 詳しくは、Adobe カスタマーケアにお問い合わせください。
 
 ## Adobe Journey OptimizerでのJourney Agentの概要
 
@@ -56,7 +61,7 @@ Journey Agentは、次の3つの主要な作業で構成されています。
 
 >[!AVAILABILITY]
 >
->ジャーニー作成は、AI アシスタントにアクセスできるすべてのお客様が利用できます。 ただし、ジャーニー作成機能を完全に使用するには、次の権限が必要です。
+>ジャーニー作成は、Agent Orchestrator エクスプローラープログラムの一部であるお客様が利用できます。 ジャーニー作成機能を完全に使用するには、次の権限も必要です。
 >
 >**ジャーニーの管理**：この権限を持つユーザーは、AI アシスタントで新しいジャーニーを直接作成できます。
 >
