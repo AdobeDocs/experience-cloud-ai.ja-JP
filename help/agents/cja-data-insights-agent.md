@@ -22,7 +22,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
+source-git-commit: 03b165bd63f21e4f92fecd26cd05605ab027fde3
 workflow-type: tm+mt
 source-wordcount: 2690
 ht-degree: 4%
@@ -289,3 +289,4 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 >[データ辞書](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
 >[計算指標を承認](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
 >[セグメントの共有](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/segments/seg-share)
+
