@@ -277,7 +277,7 @@ Channel Content Createを使用すると、Journey Optimizerユーザーは、AI
 
 Journey Agentなら、Journey Optimizerのユーザーは、自然言語のインターフェイスを使用してカスタマージャーニーを分析、最適化できます。 Journey Agentを使用することで、実務担当者はスケジュールやオーディエンスの競合を迅速に特定して解決し、ジャーニーにおける利用者の離脱ポイントを検出して、インサイトや推奨事項を提供することができます。 これにより、実務担当者はデータに基づいた意思決定を行い、顧客エンゲージメントを向上させ、ジャーニーオーケストレーションを効率化できるようになります。
 
-詳しくは、この[概要](https://experienceleague.adobe.com/en/slides/journey-agent-overview)を参照してください。
+詳しくは、この[概要](https://experienceleague.adobe.com/ja/slides/journey-agent-overview)を参照してください。
 
 >[!AVAILABILITY]
 >
