@@ -53,7 +53,7 @@ Journey Agentは、次の4つの主要な作業で構成されています。
 - **チャネルコンテンツの作成**:AIを活用したコンテンツ生成を使用して、ジャーニー用のチャネル固有のコンテンツ（電子メール、プッシュ通知、SMS）を生成、編集、管理します
 - **ジャーニー分析**: ジャーニーを分析し、問題を検出し、インサイトを明らかにして、顧客エンゲージメントを最適化します
 
-さらに、**ジャーニーシミュレーション**&#x200B;は、[製品シミュレート &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)を含むJourney Optimizer機能です。これは、非会話型の製品内エージェント型スキルで、次の3つの機能を備えています。
+さらに、**ジャーニーシミュレーション**&#x200B;は、[製品シミュレート &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)を含むJourney Optimizer機能です。これは、非会話型の製品内エージェント型スキルで、次の3つの機能を備えています。
 
 - シミュレートされたユーザーの生成
 - イベント値の生成
@@ -283,7 +283,7 @@ Channel Content Createを使用すると、Journey Optimizerユーザーは、AI
 
 Journey Agentなら、Journey Optimizerのユーザーは、自然言語のインターフェイスを使用してカスタマージャーニーを分析、最適化できます。 Journey Agentを使用することで、実務担当者はスケジュールやオーディエンスの競合を迅速に特定して解決し、ジャーニーにおける利用者の離脱ポイントを検出して、インサイトや推奨事項を提供することができます。 これにより、実務担当者はデータに基づいた意思決定を行い、顧客エンゲージメントを向上させ、ジャーニーオーケストレーションを効率化できるようになります。
 
-詳しくは、この[概要](https://experienceleague.adobe.com/en/slides/journey-agent-overview)を参照してください。
+詳しくは、この[概要](https://experienceleague.adobe.com/ja/slides/journey-agent-overview)を参照してください。
 
 >[!AVAILABILITY]
 >
@@ -503,4 +503,4 @@ AJO Agent![&#128279;](./images/ajo-agent/ajo-agent-sample.png)の サンプル
 
 シミュレーションは、テストモードまたはライブジャーニーがサポートするあらゆるアクティビティ、チャネル、または統合をサポートしているわけではなく、機能の成熟度に応じて動作が変化する場合があります。
 
-➡️ [&#x200B; シミュレーションの制限](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations)について詳しくは、Journey Optimizer ドキュメントを参照してください。
+➡️ [&#x200B; シミュレーションの制限](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations)について詳しくは、Journey Optimizer ドキュメントを参照してください。
