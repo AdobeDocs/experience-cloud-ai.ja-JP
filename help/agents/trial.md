@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: e385f60b8c55779b636dcc494fced27bc63d1eb3
+source-git-commit: e463f08590d0d44d286e3ce69e57607d35e74489
 workflow-type: tm+mt
 source-wordcount: 1243
 ht-degree: 4%
@@ -88,7 +88,7 @@ Adobeで適切なサポートを提供できるように、一部のAdobe Experi
 
 Adobe Experience Platform UIのライセンス使用状況ダッシュボードを使用して、AI クレジットを追跡できます。 詳しくは、[&#x200B; ライセンス使用状況ダッシュボードのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/dashboards/guides/license-usage)を参照してください。 ダッシュボードを使用して、AI クレジットの使用状況とレポートを表示します。 適切な権限を持つ管理者とユーザーのみが、使用状況に関する情報を表示できます。
 
-また、エージェンティック AI モニタリングダッシュボードを使用して、insightにエージェンティック AIの導入、エンゲージメント、フィードバック、組織全体でのAI クレジットの使用状況に関する情報を取り込むこともできます。 許可されたユーザーは、ダッシュボードを使用して主要指標を追跡し、最適化の機会を特定して、ガバナンスや導入の取り組みをサポートすることができます。 詳しくは、[Agentic AI Monitoring](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/monitoring)に関するガイドを参照してください。
+また、エージェンティック AI モニタリングダッシュボードを使用して、insightにエージェンティック AIの導入、エンゲージメント、フィードバック、組織内でのAI クレジットの使用状況に関する情報を取得することもできます。 許可されたユーザーは、ダッシュボードを使用して主要指標を追跡し、最適化の機会を特定して、ガバナンスや導入の取り組みをサポートすることができます。 詳しくは、[Agentic AI Monitoring](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/monitoring)に関するガイドを参照してください。
 
 ### 裁判が終わった後はどうなるか。
 
