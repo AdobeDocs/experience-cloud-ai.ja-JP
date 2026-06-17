@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: e463f08590d0d44d286e3ce69e57607d35e74489
+source-git-commit: 3f67508410c0a41a8edb6f22f20f4c25709df9f7
 workflow-type: tm+mt
 source-wordcount: 1243
 ht-degree: 4%
@@ -40,6 +40,8 @@ Adobeは、独自の裁量でトライアルの実施要件を決定します。
 
 対象となるお客様には、ジョブの任意の組み合わせで使用できる最初の1回限りのAI クレジットの使用権限が付与されます（Experience Cloud アプリケーションへの既存のライセンスに応じて）。[AI クレジット消費テーブル &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/ai-credit-consumption)に記載されています。 Adobe Experience Platform UIのライセンス使用状況ダッシュボードを使用して、AI クレジットを追跡できます。 詳しくは、[&#x200B; ライセンス使用状況ダッシュボードのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/dashboards/guides/license-usage)を参照してください。
 
+エージェンティック AI モニタリングダッシュボードは、エージェンティック AIがどのように導入され、組織全体でどのように使用されているかを明確に可視化します。 認定ユーザーであれば、エンゲージメントの追跡、フィードバックの収集、AI クレジットの使用状況のモニタリング、主要指標のレビューを簡単に行うことができます。 こうしたインサイトは、最適化の機会を明らかにし、ガバナンスや導入の取り組みをサポートするのに役立ちます。 詳しくは、[Agentic AI利用状況モニタリング ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/monitoring)を参照してください。
+
 >[!IMPORTANT]
 >
 >AI クレジットは体験版の期間中にのみ存在し、10,000個のAI クレジットの使用権限を完全に使用する前に追加のAI クレジットをライセンス購入した場合、**は**&#x200B;繰り越しできません。
@@ -51,8 +53,6 @@ Adobeは、独自の裁量でトライアルの実施要件を決定します。
 対象となるお客様のユーザーは、体験版の一部としてAI アシスタントとエージェントにアクセスできるため、操作は必要ありません。 Experience Platform Agentsは、ユーザー入力と監視によって導かれます。 また、エージェントは事前に定義された製品レベルのアクセス制御を尊重するため、ユーザーは該当するExperience Cloud製品内で権限を持つジョブのみを実行したり、アクションを実行したりできます。 これらのエージェント機能へのアクセスをオプトアウトし、体験版アクセスを無効にする場合は、[aep-agents-trial-support@adobe.com](mailto:aep-agents-trial-support@adobe.com)にリクエストを送信してください。
 
 アクセスできたら、Adobe Experience Cloudのホームページに移動して、AI アシスタントの利用を開始します。 [検出プロンプト &#x200B;](../ai-assistant/ai-assistant-ui.md#discovery-prompts)を使用して、プロンプトおよび一般的なワークフローの候補を表示できます。 この機能は、AI アシスタントによるオンボーディングの高速化に役立ちます。 さらに、様々なエージェントで使用できる様々なプロンプトについては、[&#x200B; プロンプトライブラリ &#x200B;](../ai-assistant/prompt-library.md)を参照してください。 詳しくは、[AI アシスタント UI ガイド &#x200B;](../ai-assistant/ai-assistant-ui.md)を参照してください。
-
-エージェンティック AI モニタリングダッシュボードは、エージェンティック AIがどのように導入され、組織全体でどのように使用されているかを明確に可視化します。 認定ユーザーであれば、エンゲージメントの追跡、フィードバックの収集、AI クレジットの使用状況のモニタリング、主要指標のレビューを簡単に行うことができます。 こうしたインサイトは、最適化の機会を明らかにし、ガバナンスや導入の取り組みをサポートするのに役立ちます。 詳しくは、[Agentic AI利用状況モニタリング ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/monitoring)を参照してください。
 
 使用可能なエージェントについて詳しくは、[Agent Orchestratorの概要](agent-orchestrator.md)を参照してください。
 
