@@ -5,10 +5,10 @@ user-guide-description: Adobe Experience Platform と Real-Time Customer Data Pl
 description: Experience Cloud の AI アシスタントについて説明します。 Experience Cloud の AI を使用して、製品知識を向上させ、運用上のインサイトを得ます。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: cc631921f23e1fa66323a287f31914631fd1c67a
+source-git-commit: 97140003d4a03d83260cf42e026c2e068f517a09
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 52%
+source-wordcount: '108'
+ht-degree: 50%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 52%
    - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
    - [Notifications エージェント](./agents/notifications.md)
    - [Agents Trial](./agents/trial.md)
+   - [データの検証](./agents/data-validation.md)
    - Data Engineering {#data-engineering}
       - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
 - MCP {#mcp}
