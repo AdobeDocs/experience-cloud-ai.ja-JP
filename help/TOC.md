@@ -38,4 +38,4 @@ ht-degree: 48%
 - MCP {#mcp}
    - [REAL-TIME CDP MCP](./mcp/rtcdp-mcp.md)
 - 同僚 {#coworker}
-   - {hide-from-toc}[遊び場での同僚のチャット ](./coworker/playground-coworker-chat.md)
+   - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
