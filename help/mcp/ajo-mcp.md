@@ -14,7 +14,7 @@ Adobe Journey Optimizerの製品ツールを使用して、MCP対応クライア
 
 >[!AVAILABILITY]
 >
->Journey OptimizerのツールはBetaに搭載されています。 アクセスは招待状によってのみ行われ、Adobe組織の有効化が必要です。 [ アクセス CX エンタープライズ MCP ツール ](access.md)を参照してください。
+>Journey OptimizerのツールはBetaに搭載されています。 アクセスは招待状によってのみ行われ、Adobe組織の有効化が必要です。 [&#x200B; アクセス CX エンタープライズ MCP ツール &#x200B;](access.md)を参照してください。
 
 ## 主な機能 {#mcp-capabilities}
 
