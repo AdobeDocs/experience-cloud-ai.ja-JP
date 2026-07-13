@@ -5,7 +5,7 @@ user-guide-description: Adobe Experience Platform と Real-Time Customer Data Pl
 description: Experience Cloud の AI アシスタントについて説明します。 Experience Cloud の AI を使用して、製品知識を向上させ、運用上のインサイトを得ます。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: ce5174f7605125cc60dfe0b11157daa66054677e
+source-git-commit: e5bf7d7ac41af7e373cc9eaef2bd11b2f91f4cd2
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 34%
@@ -37,7 +37,7 @@ ht-degree: 34%
       - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
 - MCP {#mcp}
    - [Adobe CX Enterprise MCP](./mcp/overview.md)
-   - [Real-Time CDP MCP beta](./mcp/beta/rtcdp-mcp.md)
+   - {hide-from-toc}[Real-Time CDP MCP ベータ版](./mcp/beta/rtcdp-mcp.md)
    - 基本を学ぶ {#mcp-get-started}
       - [Cx Enterprise MCP ツールへのアクセス](./mcp/access.md)
       - [CX Enterprise MCPのインストール](./mcp/install.md)
@@ -48,7 +48,7 @@ ht-degree: 34%
       - [Journey Optimizer tools](./mcp/ajo-mcp.md)
       - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
       - [Adobe Analytics tools](./mcp/analytics-mcp.md)
-      - [Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+      - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - 同僚 {#coworker}
-   - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
+   - {hide-from-toc}[遊び場での同僚のチャット ](./coworker/playground-coworker-chat.md)
    - {hide-from-toc}[AAからCJAへの移行データの検証](./coworker/data-validation-aa-cja.md)
