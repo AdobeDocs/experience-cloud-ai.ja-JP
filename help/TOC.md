@@ -5,10 +5,10 @@ user-guide-description: Adobe Experience Platform と Real-Time Customer Data Pl
 description: Experience Cloud の AI アシスタントについて説明します。 Experience Cloud の AI を使用して、製品知識を向上させ、運用上のインサイトを得ます。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 9099afedd6f090a2cab2f865ab06a2be5448b06f
+source-git-commit: ce5174f7605125cc60dfe0b11157daa66054677e
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 35%
+source-wordcount: '176'
+ht-degree: 34%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 35%
       - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
 - MCP {#mcp}
    - [Adobe CX Enterprise MCP](./mcp/overview.md)
+   - [Real-Time CDP MCP beta](./mcp/beta/rtcdp-mcp.md)
    - 基本を学ぶ {#mcp-get-started}
       - [Cx Enterprise MCP ツールへのアクセス](./mcp/access.md)
       - [CX Enterprise MCPのインストール](./mcp/install.md)
