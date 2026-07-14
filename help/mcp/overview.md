@@ -39,11 +39,11 @@ CX Coworker Gatewayは、CX Coworker Gateway製品ツール用の管理エンド
 
 | 製品ツール | エンドポイントを通じて公開される情報 | 対象 | ドキュメント |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Real-Time CDP** | オーディエンス、宛先、ソース、ID名前空間、アクティベーションの正常性（読み取り専用） | Beta | [Real-Time CDP ツール ](rtcdp-mcp.md) |
-| **Experience Platform** | スキーマ、データセット、データガバナンス、クエリサービス、監査イベント（読み取り専用） | Beta | [Experience Platform ツール ](aep-mcp.md) |
-| **Journey Optimizer** | キャンペーンとチャネル設定（読み取り専用） | Beta | [Journey Optimizer ツール ](ajo-mcp.md) |
-| **Customer Journey Analytics** | データビュー、ディメンション、指標、レポート、セグメント、日付範囲、プロジェクト、オーディエンス（読み取りと書き込み） | 使用可能 | [Customer Journey Analytics ツール ](cja-mcp.md) |
-| **Adobe Analytics** | レポートスイート、ディメンション、指標、レポート、セグメント、日付範囲、ワークスペースプロジェクト（サポートされているコンポーネントの読み取りと書き込み） | 使用可能 | [Adobe Analytics ツール ](analytics-mcp.md) |
+| **Real-Time CDP** | オーディエンス、宛先、ソース、ID名前空間、アクティベーションの正常性（読み取り専用） | Beta | [Real-Time CDP ツール &#x200B;](rtcdp-mcp.md) |
+| **Experience Platform** | スキーマ、データセット、データガバナンス、クエリサービス、監査イベント（読み取り専用） | Beta | [Experience Platform ツール &#x200B;](aep-mcp.md) |
+| **Journey Optimizer** | キャンペーンとチャネル設定（読み取り専用） | Beta | [Journey Optimizer ツール &#x200B;](ajo-mcp.md) |
+| **Customer Journey Analytics** | データビュー、ディメンション、指標、レポート、セグメント、日付範囲、プロジェクト、オーディエンス（読み取りと書き込み） | 使用可能 | [Customer Journey Analytics ツール &#x200B;](cja-mcp.md) |
+| **Adobe Analytics** | レポートスイート、ディメンション、指標、レポート、セグメント、日付範囲、ワークスペースプロジェクト（サポートされているコンポーネントの読み取りと書き込み） | 使用可能 | [Adobe Analytics ツール &#x200B;](analytics-mcp.md) |
 | **Workfront** | プロジェクト、タスク、承認ワークフローの作業管理ツール | プレビュー | [Workfront MCP サーバー](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
 
 
