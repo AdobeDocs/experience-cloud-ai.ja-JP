@@ -1,20 +1,20 @@
 ---
-title: CX Enterprise MCPのセッションコンテキストツール
-description: すべてのCX Enterprise MCP ツール呼び出しの組織、サンドボックス、データビューのコンテキストを設定するコアツールについて説明します。
-source-git-commit: 023a4c15ca787c9b110b52914fd18d0e6eecd23d
+title: CX Coworker Gatewayのセッションコンテキストツール
+description: すべてのCX Coworker Gateway ツール呼び出しの組織、サンドボックス、データビューのコンテキストを設定するコアツールについて説明します。
+source-git-commit: adb72f43865bee5b2b151a5a75994c5f3939c2d9
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%
 
 ---
 
-# Adobe CX Enterprise MCPのセッションコンテキストツール {#mcp-core}
+# Adobe CX Coworker Gatewayのセッションコンテキストツール {#mcp-core}
 
-Adobe CX Enterprise MCPには、Adobeの組織、Adobe Experience Platform サンドボックス、Customer Journey Analytics データビューを確立する一連のセッションコンテキストツールが含まれています。これらのツールは、他のすべてのプロダクトツールで動作します。 追加のライセンスや有効化は必要ありません。これらのツールは、[CX Enterprise MCP サーバー](overview.md)に接続した後、すべての認証済みユーザーが利用できます。
+Adobe CX Coworker Gatewayには、Adobeの組織、Adobe Experience Platform サンドボックス、Customer Journey Analytics データビューを確立する一連のセッションコンテキストツールが含まれています。これらのツールは、他のすべてのプロダクトツールで動作します。 追加のライセンスや有効化は必要ありません。これらのツールは、[CX Coworker Gateway サーバー](overview.md)に接続した後、すべての認証済みユーザーが利用できます。
 
 ## コンテキストの仕組み {#mcp-core-how}
 
-CX Enterprise MCPは、アクティブな1つのAdobe組織に対するすべてのツール呼び出しをスコープします。 それ以外のコンテキスト要件は、製品によって異なります。
+CX Coworker Gatewayは、アクティブな1つのAdobe組織に対するすべてのツール呼び出しをスコープします。 それ以外のコンテキスト要件は、製品によって異なります。
 
 - **Experience Platform ベースの製品** — [Real-Time CDP](rtcdp-mcp.md)、[Experience Platform](aep-mcp.md)、[Journey Optimizer](ajo-mcp.md) ツールは、Experience Platform サンドボックス内で動作します。 `core-set_sandbox`のセッションごとに1回サンドボックスを設定します。3つはすべて共有します。
 - **その他の製品** — Experience Platform上に構築されていない製品では、サンドボックスコンテキストは使用されません。 例えば、[Customer Journey Analytics](cja-mcp.md)個のツールはデータビューに対して解決され、[Adobe Analytics](analytics-mcp.md)個のツールはレポートスイートに対して解決されます。
@@ -64,5 +64,5 @@ MCP クライアントに、1つの自然言語リクエストでこの設定を
 
 ## 関連ページ {#mcp-core-related}
 
-- [Adobe CX Enterprise MCP](install.md)のインストール – 製品コンテキストの設定セクションを含む、MCP クライアントを接続する方法。
-- [Access CX Enterprise MCP tools](access.md) – 製品別のアクセス要件。
+- [Adobe CX Coworker Gatewayをインストール ](install.md) – 製品コンテキスト設定セクションを含むMCP クライアントを接続する方法。
+- [Access CX Coworker Gateway tools](access.md) – 製品別のアクセス要件。
