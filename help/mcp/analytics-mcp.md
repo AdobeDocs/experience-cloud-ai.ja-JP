@@ -1,20 +1,20 @@
 ---
-title: Adobe CX Enterprise MCPのAdobe Analyticsツール
-description: Adobe CX Enterprise MCPを通じて利用できるAdobe Analytics ツールについて説明します。
-source-git-commit: df05761a8555950366fcaa201ce9c0fd47bb0802
+title: Adobe CX Coworker GatewayのAdobe Analyticsツール
+description: Adobe CX Coworker Gatewayを通じて利用できるAdobe Analytics ツールについて説明します。
+source-git-commit: adb72f43865bee5b2b151a5a75994c5f3939c2d9
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 4%
 
 ---
 
-# Adobe CX Enterprise MCPのAdobe Analyticsツール {#aa-mcp}
+# Adobe CX Coworker GatewayのAdobe Analyticsツール {#aa-mcp}
 
-Adobe Analytics ツールを使用すると、レポートスイートの検索、ディメンションと指標の検出、レポートの実行、選択した分析コンポーネントの管理を、MCP対応クライアントから行うことができます。 これらのツールは、アカウントに必要なAdobe Analytics ライセンスと権限がある場合に、統合[Adobe CX Enterprise MCP](overview.md)を通じて利用できます。
+Adobe Analytics ツールを使用すると、レポートスイートの検索、ディメンションと指標の検出、レポートの実行、選択した分析コンポーネントの管理を、MCP対応クライアントから行うことができます。 これらのツールは、アカウントに必要なAdobe Analytics ライセンスと権限がある場合に、統合[Adobe CX Coworker Gateway](overview.md)を通じて利用できます。
 
 >[!AVAILABILITY]
 >
->分析ツールは、Adobe Analytics ライセンスをお持ちのお客様が利用できます。 アクセスは、Adobe Admin Consoleの&#x200B;**MCP Access**&#x200B;権限によって制御されます。 詳しくは、[Access CX Enterprise MCP tools](access.md)を参照してください。
+>分析ツールは、Adobe Analytics ライセンスをお持ちのお客様が利用できます。 アクセスは、Adobe Admin Consoleの&#x200B;**MCP Access**&#x200B;権限によって制御されます。 詳しくは、[&#x200B; アクセス CX Workfront ゲートウェイ ツール &#x200B;](access.md)を参照してください。
 
 ## 主な機能 {#mcp-capabilities}
 

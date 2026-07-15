@@ -1,20 +1,20 @@
 ---
-title: CX Enterprise MCPのAdobe Journey Optimizerツール
-description: CX Enterprise MCPを通じて利用できるAdobe Journey Optimizer ツールについて説明します。
-source-git-commit: 6c73b4d2e452a82597565d71279df2dba605a977
+title: CX Coworker GatewayのAdobe Journey Optimizerツール
+description: CX Coworker Gatewayを通じて利用できるAdobe Journey Optimizer ツールについて説明します。
+source-git-commit: adb72f43865bee5b2b151a5a75994c5f3939c2d9
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 4%
 
 ---
 
-# CX Enterprise MCPのAdobe Journey Optimizerツール {#ajo-mcp}
+# CX Coworker GatewayのAdobe Journey Optimizerツール {#ajo-mcp}
 
-Adobe Journey Optimizerの製品ツールを使用して、MCP対応クライアントからキャンペーンとチャネル設定を調査します。 これらのツールは、組織が有効になっていて、ユーザーアカウントに必要なJourney Optimizer権限が付与されている場合、[CX Enterprise MCP](overview.md)を通じて利用できます。
+Adobe Journey Optimizerの製品ツールを使用して、MCP対応クライアントからキャンペーンとチャネル設定を調査します。 これらのツールは、組織が有効になっていて、ユーザーアカウントに必要なJourney Optimizer権限が付与されている場合、[CX Coworker Gateway](overview.md)を通じて利用できます。
 
 >[!AVAILABILITY]
 >
->Journey OptimizerのツールはBetaに搭載されています。 アクセスは招待状によってのみ行われ、Adobe組織の有効化が必要です。 [&#x200B; アクセス CX エンタープライズ MCP ツール &#x200B;](access.md)を参照してください。
+>Journey OptimizerのツールはBetaに搭載されています。 アクセスは招待状によってのみ行われ、Adobe組織の有効化が必要です。 [CX Coworker Gateway Tools](access.md)へのアクセスを参照してください。
 
 ## 主な機能 {#mcp-capabilities}
 
