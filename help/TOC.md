@@ -50,5 +50,5 @@ ht-degree: 33%
       - [Adobe Analytics tools](./mcp/analytics-mcp.md)
       - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - 同僚 {#coworker}
-   - {hide-from-toc}[遊び場での同僚のチャット ](./coworker/playground-coworker-chat.md)
+   - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
    - {hide-from-toc}[AAからCJAへの移行データの検証](./coworker/data-validation-aa-cja.md)
