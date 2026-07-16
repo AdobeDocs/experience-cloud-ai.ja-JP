@@ -40,9 +40,9 @@ Adobeの裁量により、体験版のお客様は、AI アシスタントの会
 対象となるお客様には、以下に使用する最大10,000個のAI クレジットの最初の1回限りの使用権限が付与されます。
 
 - 同僚チャット：同僚チャットに入力された入力。 導入期間が限られている場合、入力は1入力あたり25件のAI クレジットの割合でAI クレジットを使用します。 この料金は期間限定で、変更される場合があります。
-- Experience Platform Agents: [AI クレジット消費量テーブル &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption)に記載されているExperience Platform Agentsを使用して実行されたジョブの組み合わせ（CX Enterprise アプリケーションへの既存のライセンスに応じて）。
+- Experience Platform Agents: [AI クレジット消費量テーブル &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/ai-credit-consumption)に記載されているExperience Platform Agentsを使用して実行されたジョブの組み合わせ（CX Enterprise アプリケーションへの既存のライセンスに応じて）。
 
-Adobe Experience Platform UIのライセンス使用状況ダッシュボードを使用して、AI クレジットを追跡できます。 詳しくは、[&#x200B; ライセンス使用状況ダッシュボードのドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)を参照してください。
+Adobe Experience Platform UIのライセンス使用状況ダッシュボードを使用して、AI クレジットを追跡できます。 詳しくは、[&#x200B; ライセンス使用状況ダッシュボードのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/dashboards/guides/license-usage)を参照してください。
 
 エージェンティック AI モニタリングダッシュボードは、エージェンティック AIがどのように導入され、組織全体でどのように使用されているかを明確に可視化します。 許可されたユーザーは、エンゲージメントの追跡、フィードバックの収集、AI クレジットの使用状況のモニタリング、主要指標のレビューを簡単に行うことができます。 こうしたインサイトは、最適化の機会を明らかにし、ガバナンスや導入の取り組みをサポートするのに役立ちます。 詳しくは、[Agentic AI利用状況モニタリング ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/monitoring)を参照してください。
 
@@ -102,7 +102,7 @@ Adobeで適切なサポートを提供できるように、一部のAdobe Experi
 
 ### AI クレジットを取得し、そのAI クレジットを使用するとどうなりますか？
 
-対象となるお客様には、試用版で最大10,000件のAI クレジットが付与されます。このAI クレジットは、共同作業チャット（またはExperience Platform Agents）がタスクを実行する際に使用されます。 これらのAI クレジットは体験版の期間のみ存在し、10,000個のAI クレジットを使用する前に追加のAI クレジットをライセンス購入した場合はロールオーバーされないことに注意してください。 AI クレジット消費について詳しくは、[&#x200B; エージェントジョブとAI クレジット消費ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption)を参照してください。
+対象となるお客様には、試用版で最大10,000件のAI クレジットが付与されます。このAI クレジットは、共同作業チャット（またはExperience Platform Agents）がタスクを実行する際に使用されます。 これらのAI クレジットは体験版の期間のみ存在し、10,000個のAI クレジットを使用する前に追加のAI クレジットをライセンス購入した場合はロールオーバーされないことに注意してください。 AI クレジット消費について詳しくは、[&#x200B; エージェントジョブとAI クレジット消費ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/ai-credit-consumption)を参照してください。
 
 ### これには何か費用がかかりますか。
 
@@ -110,7 +110,7 @@ Adobeで適切なサポートを提供できるように、一部のAdobe Experi
 
 ### 誰が使用状況と方法を確認できますか？
 
-Adobe Experience Platform UIのライセンス使用状況ダッシュボードを使用して、AI クレジットを追跡できます。 詳しくは、[&#x200B; ライセンス使用状況ダッシュボードのドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)を参照してください。 ダッシュボードを使用して、AI クレジットの使用状況とレポートを表示します。 適切な権限を持つ管理者とユーザーのみが、使用状況に関する情報を表示できます。
+Adobe Experience Platform UIのライセンス使用状況ダッシュボードを使用して、AI クレジットを追跡できます。 詳しくは、[&#x200B; ライセンス使用状況ダッシュボードのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/dashboards/guides/license-usage)を参照してください。 ダッシュボードを使用して、AI クレジットの使用状況とレポートを表示します。 適切な権限を持つ管理者とユーザーのみが、使用状況に関する情報を表示できます。
 
 顧客は引き続き、誰が使用状況やレポートを確認できるかを管理できます。 この情報を表示できるのは、適切な権限を持つ管理者とユーザーのみです。
 
